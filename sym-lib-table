@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "uniOpAmpLib") (type "KiCad") (uri "${KIPRJMOD}/uniOpAmpLib.kicad_sym") (options "") (descr ""))
+)

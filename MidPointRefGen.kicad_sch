@@ -1838,7 +1838,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "uniOpAmpLib:OPA191"
+		(symbol "uniOpAmpLib:OPA992DBV"
 			(pin_names
 				(offset 0.127)
 			)
@@ -1848,9 +1848,30 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 0 7.62 0)
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "OPA992DBV"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+				(at -2.54 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1858,21 +1879,10 @@
 					(justify left)
 				)
 			)
-			(property "Value" "OPA191"
+			(property "Datasheet" "https://www.ti.com/product/OPA992"
 				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -1880,18 +1890,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/product/OPA992?utm_source=google&utm_medium=cpc&utm_campaign=asc-tech-inno-dynpf_amp-cpc-pf-google-soas_en_int&utm_content=prodfolddynamic&gclsrc=aw.ds&gad_source=1&gad_campaignid=23852997043&gclid=Cj0KCQjwjb3SBhDgARIsAMKiWzjQP_YR04ayS3sygnxbUktqzbkQ6pgebpr6umI4emnXRtczMhaA8nwaAmZgEALw_wcB#product-details"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Low Power Single Operational Amplifier, SOT-23-5"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1934,7 +1933,7 @@
 					)
 				)
 			)
-			(symbol "OPA191_0_1"
+			(symbol "OPA992DBV_0_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -1948,7 +1947,7 @@
 					)
 				)
 			)
-			(symbol "OPA191_1_1"
+			(symbol "OPA992DBV_1_1"
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
@@ -2004,7 +2003,7 @@
 					)
 				)
 			)
-			(symbol "OPA191_2_1"
+			(symbol "OPA992DBV_2_1"
 				(pin power_in line
 					(at -2.54 -7.62 90)
 					(length 3.81)
@@ -2056,12 +2055,6 @@
 		(uuid "288f561c-d34b-46ea-b5f8-c0b7c4d20022")
 	)
 	(junction
-		(at 134.62 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ba0f8be-66c2-4e8d-9bd4-c523090e7100")
-	)
-	(junction
 		(at 58.42 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2080,6 +2073,12 @@
 		(uuid "1e0dfa1b-8d7c-470b-822a-e8b27856e9a8")
 	)
 	(junction
+		(at 69.85 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f2add7b-df9f-4b0b-bb81-7afc8f381fd0")
+	)
+	(junction
 		(at 48.26 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2092,10 +2091,10 @@
 		(uuid "3c8df0a6-a0d0-44c5-9828-f525f190ea0f")
 	)
 	(junction
-		(at 69.85 179.07)
+		(at 130.81 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4094b323-d157-496b-a2e6-dbffa9c1d53a")
+		(uuid "40d129a7-97d4-4039-b586-d992799262bc")
 	)
 	(junction
 		(at 69.85 118.11)
@@ -2110,16 +2109,16 @@
 		(uuid "5447cffc-9282-4a4d-a58e-8a6afbc33d84")
 	)
 	(junction
+		(at 113.03 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55d6a7ac-8e84-495f-8883-e84ce78a5fd3")
+	)
+	(junction
 		(at 58.42 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59b4ca49-b0a7-4352-ac4f-d905ce8763d8")
-	)
-	(junction
-		(at 134.62 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a4f45b0-7411-46d7-8efb-f7426ea8a1fb")
 	)
 	(junction
 		(at 82.55 60.96)
@@ -2128,16 +2127,22 @@
 		(uuid "67bf3453-b391-41bc-adb7-cf9ec62f8595")
 	)
 	(junction
-		(at 113.03 179.07)
+		(at 130.81 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "72eb38f7-0673-4f8e-ab54-fded9a169dc7")
+		(uuid "6fda91ae-bbae-49ca-aa76-d1a847f7a21a")
 	)
 	(junction
-		(at 124.46 167.64)
+		(at 113.03 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "797556d1-117f-49de-9e9f-94cf3888c0ae")
+		(uuid "7118bfd2-2576-4214-b057-c96f1cf943aa")
+	)
+	(junction
+		(at 140.97 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78d37e24-7dcf-4555-a365-fb9273af9711")
 	)
 	(junction
 		(at 213.36 60.96)
@@ -2146,10 +2151,10 @@
 		(uuid "85afc3dc-de9f-4f31-b32e-961c0551a77b")
 	)
 	(junction
-		(at 124.46 175.26)
+		(at 69.85 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "91badc5c-1fb2-4f52-ad28-6bfa67ad8ebe")
+		(uuid "9909952f-22d9-4252-b028-86945bcb83ff")
 	)
 	(junction
 		(at 48.26 121.92)
@@ -2162,12 +2167,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c113ea8f-1eed-4b36-91ae-7515a269b1fb")
-	)
-	(junction
-		(at 113.03 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7d0a440-0686-42ca-b382-b18a92df4f02")
 	)
 	(junction
 		(at 203.2 60.96)
@@ -2188,12 +2187,6 @@
 		(uuid "cef4a218-c194-4f1d-a8d7-e3244f8aa888")
 	)
 	(junction
-		(at 69.85 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5f0b772-0c07-4e65-8185-f8ce9ea6ff28")
-	)
-	(junction
 		(at 58.42 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2210,6 +2203,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f325f95f-c22d-4bf4-8046-6858396b4fdb")
+	)
+	(junction
+		(at 140.97 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdaaedc6-b79f-4fec-9eab-0488ddeaede5")
 	)
 	(junction
 		(at 203.2 53.34)
@@ -2249,7 +2248,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 167.64) (xy 134.62 167.64)
+			(xy 151.13 167.64) (xy 140.97 167.64)
 		)
 		(stroke
 			(width 0)
@@ -2259,7 +2258,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 175.26) (xy 134.62 175.26)
+			(xy 151.13 175.26) (xy 140.97 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2509,6 +2508,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 175.26) (xy 140.97 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64f3e03f-5d8c-4dd9-a3c3-aef391394bed")
+	)
+	(wire
+		(pts
 			(xy 124.46 175.26) (xy 124.46 179.07)
 		)
 		(stroke
@@ -2559,16 +2568,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 167.64) (xy 124.46 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c73be04-c8ba-4552-9842-71e5a7de336b")
-	)
-	(wire
-		(pts
 			(xy 58.42 179.07) (xy 69.85 179.07)
 		)
 		(stroke
@@ -2606,6 +2605,26 @@
 			(type default)
 		)
 		(uuid "7ecb14c7-6144-4642-a8b5-08d1c4789dfa")
+	)
+	(wire
+		(pts
+			(xy 130.81 167.64) (xy 140.97 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86bb325c-d4f6-4eb1-a118-874d3c6fcf9a")
+	)
+	(wire
+		(pts
+			(xy 124.46 167.64) (xy 130.81 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89dd1f00-3e3c-4530-aba5-d0e49b8d1a16")
 	)
 	(wire
 		(pts
@@ -2749,16 +2768,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 175.26) (xy 124.46 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baf409d7-2005-4874-b483-9ce630dd2f29")
-	)
-	(wire
-		(pts
 			(xy 38.1 167.64) (xy 48.26 167.64)
 		)
 		(stroke
@@ -2866,6 +2875,16 @@
 			(type default)
 		)
 		(uuid "e3f2672a-ace5-456c-8e52-83f27162a7c2")
+	)
+	(wire
+		(pts
+			(xy 124.46 175.26) (xy 130.81 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed89b88f-87a9-4b4c-b765-260578edab7c")
 	)
 	(wire
 		(pts
@@ -3322,94 +3341,6 @@
 			(project "universalOpAmpV0"
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "uniOpAmpLib:OPA191")
-		(at 95.25 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1c2a72e1-baef-4612-b858-bd7396b4b8c3")
-		(property "Reference" "U4"
-			(at 95.25 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA191"
-			(at 95.25 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 95.25 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/product/OPA992?utm_source=google&utm_medium=cpc&utm_campaign=asc-tech-inno-dynpf_amp-cpc-pf-google-soas_en_int&utm_content=prodfolddynamic&gclsrc=aw.ds&gad_source=1&gad_campaignid=23852997043&gclid=Cj0KCQjwjb3SBhDgARIsAMKiWzjQP_YR04ayS3sygnxbUktqzbkQ6pgebpr6umI4emnXRtczMhaA8nwaAmZgEALw_wcB#product-details"
-			(at 95.25 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Low Power Single Operational Amplifier, SOT-23-5"
-			(at 95.25 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cf62d2a8-3791-47c7-98c4-e87f96a76807")
-		)
-		(pin "5"
-			(uuid "abc280f8-a56d-4b27-9711-02bd76b1a815")
-		)
-		(pin "2"
-			(uuid "0a61ef10-5865-477d-821a-fd6edf6e700e")
-		)
-		(pin "4"
-			(uuid "c9d64779-710e-48f4-99f3-f2698363c817")
-		)
-		(pin "3"
-			(uuid "bd133677-e2c6-40ee-918c-ddfa0b842109")
-		)
-		(instances
-			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -3902,8 +3833,99 @@
 		)
 	)
 	(symbol
+		(lib_id "uniOpAmpLib:OPA992DBV")
+		(at 115.57 171.45 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "463383b3-9775-4483-a473-fc3a0c5ae7cb")
+		(property "Reference" "U4"
+			(at 109.22 172.7201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "OPA992DBV"
+			(at 109.22 170.1801 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+			(at 113.03 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/product/OPA992"
+			(at 115.57 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "cd0f9dc0-9f5a-4a8d-bb2e-5f491769b376")
+		)
+		(pin "2"
+			(uuid "5230fcb0-10a0-49c5-88d6-889414da62cf")
+		)
+		(pin "4"
+			(uuid "3948949a-2d92-46ed-b156-bea6e0c67a41")
+		)
+		(pin "3"
+			(uuid "add10186-5d05-4112-b3e1-0cf1e4d64eee")
+		)
+		(pin "1"
+			(uuid "269f7397-6718-4427-9391-cd0df5c13e87")
+		)
+		(instances
+			(project "universalOpAmpV0"
+				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
+					(reference "U4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 144.78 171.45 0)
+		(at 151.13 171.45 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3914,7 +3936,7 @@
 		(dnp no)
 		(uuid "4795fd02-1cdd-4042-925a-9f53aba28f47")
 		(property "Reference" "C19"
-			(at 148.59 169.2909 0)
+			(at 154.94 169.2909 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3925,7 +3947,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 148.59 171.8309 0)
+			(at 154.94 171.8309 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3936,7 +3958,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.8148 175.26 0)
+			(at 150.1648 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3947,7 +3969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 171.45 0)
+			(at 151.13 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3958,7 +3980,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 144.78 171.45 0)
+			(at 151.13 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3995,7 +4017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4da6b55c-0aa6-4180-abd9-ef60dacc3599")
-		(property "Reference" "SW10"
+		(property "Reference" "SW14"
 			(at 73.66 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4060,7 +4082,96 @@
 		(instances
 			(project "universalOpAmpV0"
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
-					(reference "SW10")
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "uniOpAmpLib:OPA992DBV")
+		(at 95.25 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "522020c2-2e10-4563-aee2-ead673b0d5a6")
+		(property "Reference" "U4"
+			(at 95.25 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA992DBV"
+			(at 95.25 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+			(at 92.71 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/product/OPA992"
+			(at 95.25 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "f6aeae79-fc05-45a5-afb7-8682e07b63d7")
+		)
+		(pin "2"
+			(uuid "9bcacaa7-2435-40e7-aeb5-4c81dd77b45b")
+		)
+		(pin "3"
+			(uuid "e9d827bc-6b6f-4c5a-8505-dad59ddb44a8")
+		)
+		(pin "1"
+			(uuid "5f477423-fb10-40f8-8877-bf59f71a0781")
+		)
+		(pin "5"
+			(uuid "8db28bb1-6250-4d2b-b0ef-887e59d97872")
+		)
+		(instances
+			(project "universalOpAmpV0"
+				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -4423,7 +4534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67ab2b33-fba0-48ea-8d0c-052f2d01c889")
-		(property "Reference" "RN1"
+		(property "Reference" "RN2"
 			(at 50.8 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4488,7 +4599,7 @@
 		(instances
 			(project "universalOpAmpV0"
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
-					(reference "RN1")
+					(reference "RN2")
 					(unit 1)
 				)
 			)
@@ -4571,189 +4682,6 @@
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
 					(reference "C11")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "uniOpAmpLib:OPA191")
-		(at 72.39 171.45 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7096dba9-55eb-427f-b042-7883deb74d26")
-		(property "Reference" "U3"
-			(at 78.74 170.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OPA191"
-			(at 78.74 172.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 72.39 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/product/OPA992?utm_source=google&utm_medium=cpc&utm_campaign=asc-tech-inno-dynpf_amp-cpc-pf-google-soas_en_int&utm_content=prodfolddynamic&gclsrc=aw.ds&gad_source=1&gad_campaignid=23852997043&gclid=Cj0KCQjwjb3SBhDgARIsAMKiWzjQP_YR04ayS3sygnxbUktqzbkQ6pgebpr6umI4emnXRtczMhaA8nwaAmZgEALw_wcB#product-details"
-			(at 72.39 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Low Power Single Operational Amplifier, SOT-23-5"
-			(at 72.39 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "9651e9fb-8531-4694-9fc6-952962a9db09")
-		)
-		(pin "5"
-			(uuid "f0ca0bfc-fd3d-406b-a03c-6d8a23d92cf8")
-		)
-		(pin "1"
-			(uuid "ed8dc48a-d963-4288-8da0-ea44f6c8d1c1")
-		)
-		(pin "2"
-			(uuid "eb57c318-cc45-459f-bdc2-7a36b878e753")
-		)
-		(pin "3"
-			(uuid "f5aab9bc-ccb3-4b37-b9c6-488430a1ecee")
-		)
-		(instances
-			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
-					(reference "U3")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "uniOpAmpLib:OPA191")
-		(at 115.57 171.45 0)
-		(mirror x)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7308601e-9e49-4558-85f9-74c84a3bbbca")
-		(property "Reference" "U4"
-			(at 109.22 170.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "OPA191"
-			(at 109.22 172.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 115.57 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/product/OPA992?utm_source=google&utm_medium=cpc&utm_campaign=asc-tech-inno-dynpf_amp-cpc-pf-google-soas_en_int&utm_content=prodfolddynamic&gclsrc=aw.ds&gad_source=1&gad_campaignid=23852997043&gclid=Cj0KCQjwjb3SBhDgARIsAMKiWzjQP_YR04ayS3sygnxbUktqzbkQ6pgebpr6umI4emnXRtczMhaA8nwaAmZgEALw_wcB#product-details"
-			(at 115.57 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Low Power Single Operational Amplifier, SOT-23-5"
-			(at 115.57 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cf62d2a8-3791-47c7-98c4-e87f96a76808")
-		)
-		(pin "5"
-			(uuid "abc280f8-a56d-4b27-9711-02bd76b1a816")
-		)
-		(pin "2"
-			(uuid "0a61ef10-5865-477d-821a-fd6edf6e700f")
-		)
-		(pin "4"
-			(uuid "c9d64779-710e-48f4-99f3-f2698363c818")
-		)
-		(pin "3"
-			(uuid "bd133677-e2c6-40ee-918c-ddfa0b84210a")
-		)
-		(instances
-			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
-					(reference "U4")
-					(unit 2)
 				)
 			)
 		)
@@ -5396,6 +5324,189 @@
 		)
 	)
 	(symbol
+		(lib_id "uniOpAmpLib:OPA992DBV")
+		(at 95.25 52.07 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9df96add-8f27-458d-864b-32c38451fdbb")
+		(property "Reference" "U3"
+			(at 95.25 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA992DBV"
+			(at 95.25 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+			(at 92.71 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/product/OPA992"
+			(at 95.25 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "cd0f9dc0-9f5a-4a8d-bb2e-5f491769b377")
+		)
+		(pin "2"
+			(uuid "5230fcb0-10a0-49c5-88d6-889414da62d0")
+		)
+		(pin "4"
+			(uuid "3948949a-2d92-46ed-b156-bea6e0c67a42")
+		)
+		(pin "3"
+			(uuid "add10186-5d05-4112-b3e1-0cf1e4d64eef")
+		)
+		(pin "1"
+			(uuid "269f7397-6718-4427-9391-cd0df5c13e88")
+		)
+		(instances
+			(project "universalOpAmpV0"
+				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "uniOpAmpLib:OPA992DBV")
+		(at 72.39 171.45 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f154ba1-6f00-42d8-b9f5-bf13acf315c6")
+		(property "Reference" "U3"
+			(at 78.74 170.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA992DBV"
+			(at 78.74 172.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+			(at 69.85 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/product/OPA992"
+			(at 72.39 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "f6aeae79-fc05-45a5-afb7-8682e07b63d8")
+		)
+		(pin "2"
+			(uuid "9bcacaa7-2435-40e7-aeb5-4c81dd77b45c")
+		)
+		(pin "3"
+			(uuid "e9d827bc-6b6f-4c5a-8505-dad59ddb44a9")
+		)
+		(pin "1"
+			(uuid "5f477423-fb10-40f8-8877-bf59f71a0782")
+		)
+		(pin "5"
+			(uuid "8db28bb1-6250-4d2b-b0ef-887e59d97873")
+		)
+		(instances
+			(project "universalOpAmpV0"
+				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
+					(reference "U3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPDT")
 		(at 163.83 60.96 0)
 		(mirror y)
@@ -5408,7 +5519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a26548d3-eb7e-4d10-b917-310e860fa1ae")
-		(property "Reference" "SW11"
+		(property "Reference" "SW15"
 			(at 163.83 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5473,7 +5584,7 @@
 		(instances
 			(project "universalOpAmpV0"
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
-					(reference "SW11")
+					(reference "SW15")
 					(unit 1)
 				)
 			)
@@ -5797,7 +5908,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 124.46 171.45 0)
+		(at 130.81 171.45 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5809,7 +5920,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4ffca29-982d-41ab-a360-c8330e0fea08")
 		(property "Reference" "C17"
-			(at 120.65 170.1799 0)
+			(at 127 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5820,7 +5931,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 120.65 172.7199 0)
+			(at 127 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5831,7 +5942,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.4948 175.26 0)
+			(at 129.8448 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5842,7 +5953,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 171.45 0)
+			(at 130.81 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5853,7 +5964,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 124.46 171.45 0)
+			(at 130.81 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5962,7 +6073,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 134.62 171.45 0)
+		(at 140.97 171.45 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5974,7 +6085,7 @@
 		(fields_autoplaced yes)
 		(uuid "cbd58f9b-35fb-4c91-9b02-1bbcc6c1dbad")
 		(property "Reference" "C18"
-			(at 130.81 170.1799 0)
+			(at 137.16 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5985,7 +6096,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 130.81 172.7199 0)
+			(at 137.16 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5996,7 +6107,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.6548 175.26 0)
+			(at 140.0048 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6007,7 +6118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 171.45 0)
+			(at 140.97 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6018,7 +6129,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 134.62 171.45 0)
+			(at 140.97 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6198,95 +6309,6 @@
 			(project "universalOpAmpV0"
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
 					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "uniOpAmpLib:OPA191")
-		(at 95.25 52.07 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ee8ce155-84f1-4883-9c41-fc5cfa361ff9")
-		(property "Reference" "U3"
-			(at 95.25 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA191"
-			(at 95.25 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 95.25 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/product/OPA992?utm_source=google&utm_medium=cpc&utm_campaign=asc-tech-inno-dynpf_amp-cpc-pf-google-soas_en_int&utm_content=prodfolddynamic&gclsrc=aw.ds&gad_source=1&gad_campaignid=23852997043&gclid=Cj0KCQjwjb3SBhDgARIsAMKiWzjQP_YR04ayS3sygnxbUktqzbkQ6pgebpr6umI4emnXRtczMhaA8nwaAmZgEALw_wcB#product-details"
-			(at 95.25 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Low Power Single Operational Amplifier, SOT-23-5"
-			(at 95.25 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e3716dfc-08d3-4aef-850b-8b9be77627c3")
-		)
-		(pin "5"
-			(uuid "abc280f8-a56d-4b27-9711-02bd76b1a817")
-		)
-		(pin "2"
-			(uuid "0a61ef10-5865-477d-821a-fd6edf6e7010")
-		)
-		(pin "4"
-			(uuid "9296feb4-0cb5-428b-a1f6-0f55f5446cf3")
-		)
-		(pin "3"
-			(uuid "b4c2d551-7c87-42c4-8ae6-b8c96b6d1bbf")
-		)
-		(instances
-			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
-					(reference "U3")
 					(unit 1)
 				)
 			)

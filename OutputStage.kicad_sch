@@ -2367,7 +2367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e0bc831-4d10-415b-b227-53ce1755dd43")
-		(property "Reference" "C78"
+		(property "Reference" "C28"
 			(at 60.96 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2430,16 +2430,8 @@
 		)
 		(instances
 			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/0c2f5ef5-5797-4496-a1f0-91ef0b517aac"
-					(reference "C90")
-					(unit 1)
-				)
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/a48fe803-3510-46c5-b208-821f295a57db"
-					(reference "C84")
-					(unit 1)
-				)
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/ce779b8f-d582-4e38-8190-accd009e9506"
-					(reference "C78")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -2456,7 +2448,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d8c708e-d48a-46cb-a03e-a1cffc817631")
-		(property "Reference" "C76"
+		(property "Reference" "C26"
 			(at 43.18 160.4009 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2519,16 +2511,8 @@
 		)
 		(instances
 			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/0c2f5ef5-5797-4496-a1f0-91ef0b517aac"
-					(reference "C88")
-					(unit 1)
-				)
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/a48fe803-3510-46c5-b208-821f295a57db"
-					(reference "C82")
-					(unit 1)
-				)
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/ce779b8f-d582-4e38-8190-accd009e9506"
-					(reference "C76")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -2545,7 +2529,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "642019f3-a592-4269-b093-4bb10b1ba43b")
-		(property "Reference" "C77"
+		(property "Reference" "C27"
 			(at 43.18 168.0209 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2608,16 +2592,8 @@
 		)
 		(instances
 			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/0c2f5ef5-5797-4496-a1f0-91ef0b517aac"
-					(reference "C89")
-					(unit 1)
-				)
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/a48fe803-3510-46c5-b208-821f295a57db"
-					(reference "C83")
-					(unit 1)
-				)
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/ce779b8f-d582-4e38-8190-accd009e9506"
-					(reference "C77")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -2635,7 +2611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65c7919d-8ce2-45cd-9ec2-09e0ff1b1392")
-		(property "Reference" "C79"
+		(property "Reference" "C29"
 			(at 60.96 168.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2698,16 +2674,8 @@
 		)
 		(instances
 			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/0c2f5ef5-5797-4496-a1f0-91ef0b517aac"
-					(reference "C91")
-					(unit 1)
-				)
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/a48fe803-3510-46c5-b208-821f295a57db"
-					(reference "C85")
-					(unit 1)
-				)
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/ce779b8f-d582-4e38-8190-accd009e9506"
-					(reference "C79")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -2725,7 +2693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74efb414-badc-4121-9ae7-75c5ca0492a0")
-		(property "Reference" "U10"
+		(property "Reference" "U5"
 			(at 87.63 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2818,16 +2786,8 @@
 		)
 		(instances
 			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/0c2f5ef5-5797-4496-a1f0-91ef0b517aac"
-					(reference "U12")
-					(unit 2)
-				)
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/a48fe803-3510-46c5-b208-821f295a57db"
-					(reference "U11")
-					(unit 2)
-				)
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/ce779b8f-d582-4e38-8190-accd009e9506"
-					(reference "U10")
+					(reference "U5")
 					(unit 2)
 				)
 			)
@@ -2845,7 +2805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75991523-dae4-435e-b401-d2d96a5ee054")
-		(property "Reference" "C81"
+		(property "Reference" "C31"
 			(at 71.12 168.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2908,16 +2868,8 @@
 		)
 		(instances
 			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/0c2f5ef5-5797-4496-a1f0-91ef0b517aac"
-					(reference "C93")
-					(unit 1)
-				)
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/a48fe803-3510-46c5-b208-821f295a57db"
-					(reference "C87")
-					(unit 1)
-				)
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/ce779b8f-d582-4e38-8190-accd009e9506"
-					(reference "C81")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -2935,7 +2887,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8781f2c7-fc61-4e52-afa4-490a7405ed4f")
-		(property "Reference" "C80"
+		(property "Reference" "C30"
 			(at 71.12 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2998,16 +2950,8 @@
 		)
 		(instances
 			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/0c2f5ef5-5797-4496-a1f0-91ef0b517aac"
-					(reference "C92")
-					(unit 1)
-				)
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/a48fe803-3510-46c5-b208-821f295a57db"
-					(reference "C86")
-					(unit 1)
-				)
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/ce779b8f-d582-4e38-8190-accd009e9506"
-					(reference "C80")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -3026,7 +2970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f79c51a-42ca-4216-b9fe-45114d0dd176")
-		(property "Reference" "SW69"
+		(property "Reference" "SW18"
 			(at 175.26 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3090,16 +3034,8 @@
 		)
 		(instances
 			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/0c2f5ef5-5797-4496-a1f0-91ef0b517aac"
-					(reference "SW71")
-					(unit 1)
-				)
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/a48fe803-3510-46c5-b208-821f295a57db"
-					(reference "SW70")
-					(unit 1)
-				)
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/ce779b8f-d582-4e38-8190-accd009e9506"
-					(reference "SW69")
+					(reference "SW18")
 					(unit 1)
 				)
 			)
@@ -3117,7 +3053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f547d57-29fc-4ae1-b926-9d7c39fc132b")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR026"
 			(at 78.74 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -3176,16 +3112,8 @@
 		)
 		(instances
 			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/0c2f5ef5-5797-4496-a1f0-91ef0b517aac"
-					(reference "#PWR062")
-					(unit 1)
-				)
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/a48fe803-3510-46c5-b208-821f295a57db"
-					(reference "#PWR059")
-					(unit 1)
-				)
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/ce779b8f-d582-4e38-8190-accd009e9506"
-					(reference "#PWR056")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -3203,7 +3131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2c0f65a-b9d4-4e93-9da9-9a72b27a6dd5")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR025"
 			(at 78.74 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -3262,16 +3190,8 @@
 		)
 		(instances
 			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/0c2f5ef5-5797-4496-a1f0-91ef0b517aac"
-					(reference "#PWR061")
-					(unit 1)
-				)
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/a48fe803-3510-46c5-b208-821f295a57db"
-					(reference "#PWR058")
-					(unit 1)
-				)
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/ce779b8f-d582-4e38-8190-accd009e9506"
-					(reference "#PWR055")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3290,7 +3210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7cbe7e4-58f0-4e43-bf14-6747148d0495")
-		(property "Reference" "SW64"
+		(property "Reference" "SW17"
 			(at 149.86 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3354,16 +3274,8 @@
 		)
 		(instances
 			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/0c2f5ef5-5797-4496-a1f0-91ef0b517aac"
-					(reference "SW68")
-					(unit 1)
-				)
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/a48fe803-3510-46c5-b208-821f295a57db"
-					(reference "SW66")
-					(unit 1)
-				)
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/ce779b8f-d582-4e38-8190-accd009e9506"
-					(reference "SW64")
+					(reference "SW17")
 					(unit 1)
 				)
 			)
@@ -3382,7 +3294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e84e5291-6e89-417a-8698-f18219470dd4")
-		(property "Reference" "SW63"
+		(property "Reference" "SW16"
 			(at 93.98 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3464,16 +3376,8 @@
 		)
 		(instances
 			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/0c2f5ef5-5797-4496-a1f0-91ef0b517aac"
-					(reference "SW67")
-					(unit 1)
-				)
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/a48fe803-3510-46c5-b208-821f295a57db"
-					(reference "SW65")
-					(unit 1)
-				)
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/ce779b8f-d582-4e38-8190-accd009e9506"
-					(reference "SW63")
+					(reference "SW16")
 					(unit 1)
 				)
 			)
@@ -3491,7 +3395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec4a812c-c910-439d-b00f-f6d59f77b1c8")
-		(property "Reference" "U10"
+		(property "Reference" "U5"
 			(at 125.73 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3582,16 +3486,8 @@
 		)
 		(instances
 			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/0c2f5ef5-5797-4496-a1f0-91ef0b517aac"
-					(reference "U12")
-					(unit 1)
-				)
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/a48fe803-3510-46c5-b208-821f295a57db"
-					(reference "U11")
-					(unit 1)
-				)
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/ce779b8f-d582-4e38-8190-accd009e9506"
-					(reference "U10")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -3609,7 +3505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7301383-b09b-43ed-ac43-6302981c88f5")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR024"
 			(at 26.67 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -3668,16 +3564,8 @@
 		)
 		(instances
 			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/0c2f5ef5-5797-4496-a1f0-91ef0b517aac"
-					(reference "#PWR060")
-					(unit 1)
-				)
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/a48fe803-3510-46c5-b208-821f295a57db"
-					(reference "#PWR057")
-					(unit 1)
-				)
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/ce779b8f-d582-4e38-8190-accd009e9506"
-					(reference "#PWR054")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -3755,14 +3643,6 @@
 		)
 		(instances
 			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/0c2f5ef5-5797-4496-a1f0-91ef0b517aac"
-					(reference "R8")
-					(unit 1)
-				)
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/a48fe803-3510-46c5-b208-821f295a57db"
-					(reference "R7")
-					(unit 1)
-				)
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/ce779b8f-d582-4e38-8190-accd009e9506"
 					(reference "R6")
 					(unit 1)
