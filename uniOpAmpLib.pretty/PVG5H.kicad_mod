@@ -7,7 +7,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "91886824-6645-4e10-8783-b6d30bb43470")
+		(uuid "eba76f18-214d-4847-a3f4-a5e2f9bb88f7")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "a6b6cf5e-0567-4f4a-b5bd-5c2b2ebb66e6")
+		(uuid "02e268c0-23a5-46be-b2f2-56acd155b6a0")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bbdb67a3-121b-4b60-a471-f526f53f3bdc")
+		(uuid "f565e077-8340-4c46-801d-7b97f695bf80")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8232ac87-6c8b-49f4-951b-36d587acad30")
+		(uuid "57a0c0d1-7982-460f-a338-81ae0342ac03")
 		(effects
 			(font
 				(size 1 1)
@@ -64,13 +64,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "3e743cc5-3ad4-42af-a629-57279e7c6187")
+		(uuid "af1ba0a7-c77b-4644-b511-abf5c512a576")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "2192cc60-8322-4cdf-8075-a61a9f7ad246")
+		(uuid "2a249781-2804-4a39-a252-1f596b9ef99f")
 		(effects
 			(font
 				(size 1 1)
@@ -79,24 +79,6 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at 0 -2)
-		(size 2 1.6)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.125)
-		(teardrops
-			(best_length_ratio 0.5)
-			(max_length 1)
-			(best_width_ratio 1)
-			(max_width 2)
-			(curved_edges yes)
-			(filter_ratio 0.9)
-			(enabled yes)
-			(allow_two_segments yes)
-			(prefer_zone_connections yes)
-		)
-		(uuid "c26bfae3-8e87-415b-a1c9-2332f0beb56f")
-	)
-	(pad "2" smd roundrect
 		(at 1.15 2)
 		(size 1.3 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -112,7 +94,25 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "108d0528-81a9-40f4-b5b1-bc18351a5f82")
+		(uuid "3edeb5de-e05a-4508-a806-73bad6741161")
+	)
+	(pad "2" smd roundrect
+		(at 0 -2)
+		(size 2 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges yes)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "97bebf73-ef87-406d-a14d-3e72b26c1e6a")
 	)
 	(pad "3" smd roundrect
 		(at -1.15 2)
@@ -130,7 +130,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "49fd6591-851c-4c33-97f5-b818d56c8858")
+		(uuid "9fbd5e0f-6fe9-461b-a729-99d6a063faef")
 	)
 	(embedded_fonts no)
 )
