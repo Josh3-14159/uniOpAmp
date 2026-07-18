@@ -3,23 +3,11 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(property "Reference" "REF**"
-		(at 0 -0.5 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "aaca4471-5495-404c-b353-2fd47024e270")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-		)
-	)
 	(property "Value" "PP_CAP"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "9def0134-44c1-44aa-8a31-4c7d49c89c85")
+		(uuid "ae208c8c-94ca-436e-bedc-e39edb21830f")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +20,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "083c718a-bc16-4457-b1d1-b116fecc8919")
+		(uuid "187702a5-489b-43a4-888b-662447beb5b5")
 		(effects
 			(font
 				(size 1 1)
@@ -45,11 +33,23 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "77093ea6-59c3-450c-bda4-9f41e99f83f4")
+		(uuid "4f5d7cbe-6557-4052-a318-df097e85e471")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+		)
+	)
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "02bfc58b-3abd-414d-a73e-6e4912603aa3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
 			)
 		)
 	)
@@ -59,18 +59,18 @@
 		(start -3.75 -2.25)
 		(end 3.75 2.25)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
 		(fill no)
-		(layer "Margin")
-		(uuid "29c58c45-9f1b-4a48-b52a-0997f5667e89")
+		(layer "F.CrtYd")
+		(uuid "3198b546-7549-498c-a5c8-343547d94d7f")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "a4647868-5df9-42dc-be9e-4c28f404c5d2")
+		(uuid "9843ab06-8c14-48b9-8213-f529be8a7f98")
 		(effects
 			(font
 				(size 1 1)
@@ -78,21 +78,47 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
+	(pad "1" thru_hole roundrect
 		(at 2.5 0)
-		(size 2.3 2.3)
+		(size 1.3 2.5)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "a9dee208-8acd-4496-a77b-4960a5ebb5ee")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(roundrect_rratio 0.1086956522)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges yes)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "3ba9fb67-e704-4da9-9783-938cfd2acbf2")
 	)
-	(pad "2" thru_hole circle
+	(pad "2" thru_hole roundrect
 		(at -2.5 0)
-		(size 2.3 2.3)
+		(size 1.3 2.5)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "b0371f6f-12c3-4880-9b4f-d8c7917b24f0")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(roundrect_rratio 0.1086956522)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges yes)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "3af0b5d4-fd7c-491f-b559-28358311ec6f")
 	)
 	(embedded_fonts no)
 )

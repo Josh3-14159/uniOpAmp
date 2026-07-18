@@ -6996,7 +6996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcaa1d06-a0c7-4428-aafa-1b33b36d8ebd")
-		(property "Reference" "SW4"
+		(property "Reference" "SW2"
 			(at 167.64 151.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7070,7 +7070,7 @@
 		(instances
 			(project "universalOpAmpV0"
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
-					(reference "SW4")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
