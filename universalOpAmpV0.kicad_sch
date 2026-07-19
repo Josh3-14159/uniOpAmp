@@ -852,672 +852,8 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "uniOpAmpLib:218-8LPSTR"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "218-8LPSTR"
-				(at 0 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "8x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "dip switch"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SW?DIP?x8*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "218-8LPSTR_0_0"
-				(circle
-					(center -2.032 10.16)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 7.62)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 5.08)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 -5.08)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 -7.62)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 10.287) (xy 2.3622 11.3284)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 7.747) (xy 2.3622 8.7884)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 5.207) (xy 2.3622 6.2484)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 2.667) (xy 2.3622 3.7084)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.127) (xy 2.3622 1.1684)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -2.3876) (xy 2.3622 -1.3462)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -4.9276) (xy 2.3622 -3.8862)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -7.4676) (xy 2.3622 -6.4262)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 10.16)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 7.62)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 5.08)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -5.08)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -7.62)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "218-8LPSTR_0_1"
-				(rectangle
-					(start -3.81 12.7)
-					(end 3.81 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "218-8LPSTR_1_1"
-				(pin passive line
-					(at -7.62 10.16 0)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 7.62 0)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 5.08 0)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -5.08 0)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -7.62 0)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -7.62 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 10.16 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
-	(text "Summing Amplifier Module"
+	(text "Summing Amplifier Module\n(Excluded From Board at the moment)\nmodify dashed rectangle properties to fix\n"
 		(exclude_from_sim no)
 		(at 208.026 128.016 0)
 		(effects
@@ -1532,58 +868,10 @@
 		(uuid "e2c91111-fe41-469e-b3b7-034c3a19ccf7")
 	)
 	(junction
-		(at 33.02 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0831d12c-443c-439d-a0c4-a3972b4a1b86")
-	)
-	(junction
-		(at 33.02 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "22850184-8fb5-4772-8ec9-e8858598cf54")
-	)
-	(junction
-		(at 33.02 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46fc18fc-2a0e-4032-afca-1db582855e82")
-	)
-	(junction
-		(at 33.02 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a459bf2e-83cb-4f0b-8f9c-471fd7406d13")
-	)
-	(junction
-		(at 33.02 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b11822af-8cb1-4e9b-9724-0f7ee5b798c3")
-	)
-	(junction
-		(at 33.02 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2665af6-eb7b-405c-908c-50369758ae8a")
-	)
-	(junction
-		(at 33.02 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7cc2172-1f06-459e-921e-e22a9769dace")
-	)
-	(junction
 		(at 163.83 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6904d57-b31a-40e9-8777-2d887d268079")
-	)
-	(junction
-		(at 33.02 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4b246b9-12c9-496c-b75e-0c1d8f357a98")
 	)
 	(wire
 		(pts
@@ -1694,16 +982,6 @@
 			(type default)
 		)
 		(uuid "1567fb68-c576-420d-95b7-6f66de3a5d07")
-	)
-	(wire
-		(pts
-			(xy 33.02 36.83) (xy 33.02 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "178b5ff0-741d-4940-81cc-54e69a3bba10")
 	)
 	(wire
 		(pts
@@ -2007,16 +1285,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 100.33) (xy 33.02 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4814b968-477a-4769-b1b3-4c7b259b499e")
-	)
-	(wire
-		(pts
 			(xy 191.77 43.18) (xy 194.31 43.18)
 		)
 		(stroke
@@ -2064,16 +1332,6 @@
 			(type default)
 		)
 		(uuid "4d1f44df-edd8-42de-8f68-45e856c80eff")
-	)
-	(wire
-		(pts
-			(xy 33.02 24.13) (xy 33.02 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5037b9b8-73b7-48b6-86ed-20886a749bf0")
 	)
 	(wire
 		(pts
@@ -2347,16 +1605,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 34.29) (xy 33.02 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "848133e3-824f-43c6-b33e-3d99dbc8aa61")
-	)
-	(wire
-		(pts
 			(xy 115.57 101.6) (xy 118.11 101.6)
 		)
 		(stroke
@@ -2467,16 +1715,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 69.85) (xy 33.02 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a238552-e8e2-44c8-9d8f-b47b756ae17a")
-	)
-	(wire
-		(pts
 			(xy 153.67 132.08) (xy 153.67 133.35)
 		)
 		(stroke
@@ -2547,16 +1785,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 107.95) (xy 33.02 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a541cd8f-f1af-47da-9c9e-552921555392")
-	)
-	(wire
-		(pts
 			(xy 254 31.75) (xy 261.62 31.75)
 		)
 		(stroke
@@ -2624,16 +1852,6 @@
 			(type default)
 		)
 		(uuid "ba977d61-d416-4916-9a4d-8b9013c638de")
-	)
-	(wire
-		(pts
-			(xy 33.02 39.37) (xy 33.02 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb2f048f-8557-4e13-bb7a-7eb1d31b8f4a")
 	)
 	(wire
 		(pts
@@ -2757,16 +1975,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 62.23) (xy 33.02 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d90902e0-d777-4b3d-bc62-4ae49ae98ffd")
-	)
-	(wire
-		(pts
 			(xy 48.26 26.67) (xy 50.8 26.67)
 		)
 		(stroke
@@ -2867,26 +2075,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 26.67) (xy 33.02 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1d953a4-9844-4053-9811-77128f1d9e7e")
-	)
-	(wire
-		(pts
-			(xy 33.02 29.21) (xy 33.02 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2817b4a-06d4-4fb8-9836-87e27a99af69")
-	)
-	(wire
-		(pts
 			(xy 191.77 97.79) (xy 194.31 97.79)
 		)
 		(stroke
@@ -2894,16 +2082,6 @@
 			(type default)
 		)
 		(uuid "f2bf7eff-eb9b-46e6-8883-eafc570048da")
-	)
-	(wire
-		(pts
-			(xy 33.02 31.75) (xy 33.02 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f34cddef-ce9e-40c7-8d01-48dc036e7e7a")
 	)
 	(wire
 		(pts
@@ -5686,7 +4864,7 @@
 	(rule_area
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(polyline
 			(pts
@@ -6623,128 +5801,6 @@
 		)
 	)
 	(symbol
-		(lib_id "uniOpAmpLib:218-8LPSTR")
-		(at 40.64 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd7d2113-6184-4e46-9857-2bde9e9acb23")
-		(property "Reference" "SW1"
-			(at 40.64 16.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "218-8LPSTR"
-			(at 40.64 19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 40.64 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "14"
-			(uuid "9a589f53-63c5-47a2-99c4-12aefbc604ce")
-		)
-		(pin "4"
-			(uuid "4be208ec-263e-4e37-acbe-80d0dac2b328")
-		)
-		(pin "5"
-			(uuid "35e33cb4-73a7-4315-b022-cfc421ea1f8f")
-		)
-		(pin "6"
-			(uuid "8531cf45-c69e-4dc3-bea8-f57983d460a6")
-		)
-		(pin "7"
-			(uuid "968b74f4-bb9c-4bab-a4fc-074f9fe10992")
-		)
-		(pin "2"
-			(uuid "629b027f-60d1-442c-91b1-e29d9d873ee0")
-		)
-		(pin "1"
-			(uuid "9df37ee1-0f34-40b2-aad8-3bcb89b4aceb")
-		)
-		(pin "12"
-			(uuid "ca32de00-56b9-4722-9aa0-d5dd4b57451c")
-		)
-		(pin "8"
-			(uuid "a35c93b8-3436-4d3f-9a7b-2fe148447804")
-		)
-		(pin "10"
-			(uuid "921df9b7-6199-486a-968f-a413efc8f1bb")
-		)
-		(pin "16"
-			(uuid "079438b5-16a0-4db5-bf68-0455f50dcdc5")
-		)
-		(pin "15"
-			(uuid "d00fe6c1-1d69-4dcf-abb0-8167a6817e6a")
-		)
-		(pin "9"
-			(uuid "315bbe3a-bfd7-4a98-9f14-ce8f3b6357ab")
-		)
-		(pin "13"
-			(uuid "f0a9259a-b0c5-49ab-9b2d-8cf2eb73c3f5")
-		)
-		(pin "11"
-			(uuid "46ec29ec-3b5d-4722-b4d6-2ecff33f6d55")
-		)
-		(pin "3"
-			(uuid "6550d0fe-db92-4b00-b3e8-ed868828ce6c")
-		)
-		(instances
-			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_Coaxial")
 		(at 25.4 31.75 0)
 		(mirror y)
@@ -7386,7 +6442,200 @@
 		(instances
 			(project "universalOpAmpV0"
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
-					(page "2")
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 22.86)
+		(size 15.24 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "48d355b3-237b-4228-9d01-e6a4bd4e5c45")
+		(property "Sheetname" "InputStage1"
+			(at 33.02 22.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "InputStage.kicad_sch"
+			(at 33.02 43.7646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1I" output
+			(at 48.26 24.13 0)
+			(uuid "5882db86-cfd1-4d2a-9953-4625379eb444")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2I" output
+			(at 48.26 26.67 0)
+			(uuid "be4db4d5-e442-4ccb-9ed0-8eb0a00bcadf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3I" output
+			(at 48.26 29.21 0)
+			(uuid "68e3f3a1-c09d-4790-a546-bbc6fba3b430")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "4I" output
+			(at 48.26 31.75 0)
+			(uuid "453e6b7a-94e3-4e8c-9fd4-3e7ba3f42864")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5I" output
+			(at 48.26 34.29 0)
+			(uuid "ed4742a0-e7ee-41e2-ad83-47864d67ad45")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "6I" output
+			(at 48.26 36.83 0)
+			(uuid "89288c7f-3a08-4520-8537-83191074a21a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "7I" output
+			(at 48.26 39.37 0)
+			(uuid "23563de1-7c0e-46c3-a176-1c4038f635a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "8I" output
+			(at 48.26 41.91 0)
+			(uuid "fe4234ab-71a2-4dcb-8a9d-11114b186d20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I" input
+			(at 33.02 31.75 180)
+			(uuid "f7c0ab42-dfb4-4a98-87af-ccc816c04345")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "universalOpAmpV0"
+				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 177.8)
+		(size 27.94 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5d62f848-01bc-4b5b-b6c6-edef66e267d0")
+		(property "Sheetname" "MidPointRefGen"
+			(at 25.4 177.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MidPointRefGen.kicad_sch"
+			(at 25.4 191.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 25.4 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "universalOpAmpV0"
+				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
+					(page "3")
 				)
 			)
 		)
@@ -7406,8 +6655,8 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "5d62f848-01bc-4b5b-b6c6-edef66e267d0")
-		(property "Sheetname" "MidPointRefGen"
+		(uuid "604e846a-aad5-4cbc-a3c9-ff0e9d7c3047")
+		(property "Sheetname" "VoltageSources"
 			(at 25.4 151.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7418,7 +6667,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "MidPointRefGen.kicad_sch"
+		(property "Sheetfile" "VoltageSources.kicad_sch"
 			(at 25.4 165.6846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7429,21 +6678,56 @@
 				(justify left top)
 			)
 		)
-		(property "Field2" ""
-			(at 25.4 152.4 0)
-			(hide yes)
+		(instances
+			(project "universalOpAmpV0"
+				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 152.4)
+		(size 27.94 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8446620e-98b9-4ebe-b0ad-1c751e72710b")
+		(property "Sheetname" "FrequencyCounter"
+			(at 100.33 151.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FrequencyCounter.kicad_sch"
+			(at 100.33 179.6546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 			)
 		)
 		(instances
 			(project "universalOpAmpV0"
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
-					(page "3")
+					(page "7")
 				)
 			)
 		)
@@ -7559,7 +6843,7 @@
 		(instances
 			(project "universalOpAmpV0"
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
-					(page "9")
+					(page "6")
 				)
 			)
 		)

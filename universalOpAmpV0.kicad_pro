@@ -666,7 +666,7 @@
         "uuid": "0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
       }
     ],
-    "used_designators": "SW3,SW7,U1",
+    "used_designators": "L1,J7-13,RV4,U6-8,U11-12,RN3,SW14-15,SW45-48,R8-12,D7-30,C19-24,C31-45,C77-78,#PWR21-23,#PWR27-37,#PWR58-59",
     "variants": []
   },
   "sheets": [
@@ -675,16 +675,28 @@
       "Main"
     ],
     [
-      "171b8c43-0b1e-4d19-ac53-08b93a3362db",
-      "OpAmpBlock1"
+      "604e846a-aad5-4cbc-a3c9-ff0e9d7c3047",
+      "VoltageSources"
     ],
     [
       "5d62f848-01bc-4b5b-b6c6-edef66e267d0",
       "MidPointRefGen"
     ],
     [
+      "48d355b3-237b-4228-9d01-e6a4bd4e5c45",
+      "InputStage1"
+    ],
+    [
+      "171b8c43-0b1e-4d19-ac53-08b93a3362db",
+      "OpAmpBlock1"
+    ],
+    [
       "ce779b8f-d582-4e38-8190-accd009e9506",
       "OutputStage1"
+    ],
+    [
+      "8446620e-98b9-4ebe-b0ad-1c751e72710b",
+      "FrequencyCounter"
     ]
   ],
   "text_variables": {},

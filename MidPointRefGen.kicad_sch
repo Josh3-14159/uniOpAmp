@@ -1405,121 +1405,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "uniOpAmpLib:BUF634A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2067,12 +1952,6 @@
 		(uuid "1cb7f013-6978-4495-a9dc-03cbce267aac")
 	)
 	(junction
-		(at 203.2 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e0dfa1b-8d7c-470b-822a-e8b27856e9a8")
-	)
-	(junction
 		(at 69.85 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2145,12 +2024,6 @@
 		(uuid "78d37e24-7dcf-4555-a365-fb9273af9711")
 	)
 	(junction
-		(at 213.36 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85afc3dc-de9f-4f31-b32e-961c0551a77b")
-	)
-	(junction
 		(at 69.85 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2169,22 +2042,10 @@
 		(uuid "c113ea8f-1eed-4b36-91ae-7515a269b1fb")
 	)
 	(junction
-		(at 203.2 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c87b8ef6-f643-4640-8bae-2276740f93f1")
-	)
-	(junction
 		(at 40.64 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c967fb17-ae06-4b99-9a88-8defc232375d")
-	)
-	(junction
-		(at 193.04 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cef4a218-c194-4f1d-a8d7-e3244f8aa888")
 	)
 	(junction
 		(at 58.42 175.26)
@@ -2209,22 +2070,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fdaaedc6-b79f-4fec-9eab-0488ddeaede5")
-	)
-	(junction
-		(at 203.2 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff0293ba-92ba-432f-9c3b-11d29f836dfc")
-	)
-	(wire
-		(pts
-			(xy 193.04 53.34) (xy 203.2 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "001458d0-9b2b-4a08-8e31-9132e79a8204")
 	)
 	(wire
 		(pts
@@ -2338,16 +2183,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 68.58) (xy 203.2 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18cecdd3-a374-4812-9bfb-2365271b4809")
-	)
-	(wire
-		(pts
 			(xy 82.55 54.61) (xy 82.55 60.96)
 		)
 		(stroke
@@ -2368,16 +2203,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 52.07) (xy 203.2 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e7c8cb9-55cc-45da-9c90-f36ee9e9fc76")
-	)
-	(wire
-		(pts
 			(xy 102.87 69.85) (xy 143.51 69.85)
 		)
 		(stroke
@@ -2395,26 +2220,6 @@
 			(type default)
 		)
 		(uuid "325aae6e-29f8-4ad8-9aeb-4e2516ce5c0d")
-	)
-	(wire
-		(pts
-			(xy 203.2 68.58) (xy 203.2 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "340a1c12-3772-4147-a130-392ff829e875")
-	)
-	(wire
-		(pts
-			(xy 193.04 68.58) (xy 203.2 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b021061-001e-4bd9-b249-fe72036bf49e")
 	)
 	(wire
 		(pts
@@ -2598,16 +2403,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 63.5) (xy 227.33 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ecb14c7-6144-4642-a8b5-08d1c4789dfa")
-	)
-	(wire
-		(pts
 			(xy 130.81 167.64) (xy 140.97 167.64)
 		)
 		(stroke
@@ -2625,6 +2420,16 @@
 			(type default)
 		)
 		(uuid "89dd1f00-3e3c-4530-aba5-d0e49b8d1a16")
+	)
+	(wire
+		(pts
+			(xy 173.99 60.96) (xy 177.8 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ffd490-5577-4ac2-8eb0-56f84cd9c785")
 	)
 	(wire
 		(pts
@@ -2685,16 +2490,6 @@
 			(type default)
 		)
 		(uuid "a593a116-2bfa-4b81-b18f-da939b198e97")
-	)
-	(wire
-		(pts
-			(xy 203.2 53.34) (xy 213.36 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a73c4056-22f4-4c14-a65b-d76e02ad4726")
 	)
 	(wire
 		(pts
@@ -2898,16 +2693,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 60.96) (xy 227.33 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3d0c948-ab45-4346-b730-6a057661a07f")
-	)
-	(wire
-		(pts
 			(xy 173.99 35.56) (xy 173.99 60.96)
 		)
 		(stroke
@@ -2955,6 +2740,17 @@
 			(type default)
 		)
 		(uuid "fe98af6e-00d2-4355-8eb1-6028acc47054")
+	)
+	(hierarchical_label "GenGND"
+		(shape output)
+		(at 177.8 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1bc1b3fc-634f-4a93-98ac-5bd99f74af20")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -3024,10 +2820,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d6edfcd4-3821-44e8-b7b4-966be1a8b0ff")
+			(uuid "da25c1d7-9a65-4eb7-80fc-5c01b31d773a")
 		)
 		(pin "2"
-			(uuid "b96ca898-7082-4a51-9349-6e60b090f57e")
+			(uuid "58e58a75-c27e-4449-b8c3-90147bfd6378")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -3138,13 +2934,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "fefa2c3f-a312-4f27-b9b7-e44502789ff4")
+			(uuid "b574ace7-d783-4a2a-9f07-a2cfaa69d13c")
 		)
 		(pin "1"
-			(uuid "aa628e28-d1b0-46a6-807f-05b176a4bd16")
+			(uuid "59e0dd9c-e343-4c2f-902c-ad3782e10233")
 		)
 		(pin "3"
-			(uuid "93c7a8de-8370-42ef-afe0-7c3a9e38cabf")
+			(uuid "a7a7f38d-bb3c-4ef7-8bfe-3a35f108bb5c")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -3226,10 +3022,10 @@
 			)
 		)
 		(pin "5"
-			(uuid "f7cff22c-e4a4-4a7a-b423-25524d32800b")
+			(uuid "c3e9bb17-23b3-46dd-a2e9-1078e79d8ac9")
 		)
 		(pin "8"
-			(uuid "44513036-0abd-47f9-a3ab-f02653fbc7a8")
+			(uuid "8d976e1d-b921-49d9-9250-f68f229567d9")
 		)
 		(pin "2"
 			(uuid "f7618636-b801-4537-85c8-b727a7e01e86")
@@ -3238,10 +3034,10 @@
 			(uuid "ce4dd820-2433-4530-a515-57672d916771")
 		)
 		(pin "7"
-			(uuid "704db0eb-ec56-471a-86d0-76d1f36cf5da")
+			(uuid "8db0c6cd-3f39-48e7-b36d-a6c47cf51863")
 		)
 		(pin "4"
-			(uuid "2ef130fb-0440-4cd1-9194-cb0232b405e7")
+			(uuid "b950b588-5eda-4bb6-b89b-54305cf8d281")
 		)
 		(pin "6"
 			(uuid "a4ed6e03-b6dd-4359-b832-9d60cfcbeb0c")
@@ -3253,7 +3049,7 @@
 			(uuid "a7ec2401-f477-44ff-92e4-4b173aebb836")
 		)
 		(pin "2"
-			(uuid "0fc49d98-35b2-465e-ad76-c624f7067ecf")
+			(uuid "0fd2a823-b86f-4a73-8a9d-759f76813918")
 		)
 		(pin "1"
 			(uuid "a556f7cd-81bf-440d-aa8c-95194970f48e")
@@ -3335,90 +3131,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "62c76ce4-2b2d-4d4d-b5ee-8cc94a1390bf")
+			(uuid "4c2a0f75-5cd9-47bd-b71c-d1c8a9f8bc68")
 		)
 		(instances
 			(project "universalOpAmpV0"
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-VDC")
-		(at 203.2 69.85 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25e0c779-b178-4db8-8fa1-574ce4eb82a2")
-		(property "Reference" "#PWR022"
-			(at 203.2 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-VDC"
-			(at 203.2 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-VDC\""
-			(at 203.2 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "404e0fc2-ea71-4b81-b303-f7e4c3e07e01")
-		)
-		(instances
-			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
-					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -3490,97 +3208,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "deb22ba1-97d6-4313-a400-a746a1f31192")
+			(uuid "34fe9a82-6b98-424b-a837-524731a14f31")
 		)
 		(pin "1"
-			(uuid "8af07835-cab9-422d-b751-5d156d9a8c19")
+			(uuid "e3e86e28-2e3d-4d5f-aa91-0819f64d639c")
 		)
 		(instances
 			(project "universalOpAmpV0"
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 203.2 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32b91c53-f174-43ac-9200-4338b29bf0ba")
-		(property "Reference" "C22"
-			(at 207.01 63.4999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 207.01 66.0399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.1652 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 203.2 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e162bb17-e9ba-41da-a7a4-4d466d1cae56")
-		)
-		(pin "1"
-			(uuid "25b98f95-9dc0-400d-a15d-aa396a0c90f5")
-		)
-		(instances
-			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
-					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -3654,179 +3290,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "540260c1-700f-4833-ac5b-1d9a447c08d3")
+			(uuid "d165954f-4e1c-44c5-84d6-ac40225c8e30")
 		)
 		(pin "1"
-			(uuid "a3ab64eb-1bec-42fb-85f1-5107045b8da1")
+			(uuid "1c1d1617-4b88-4875-9e3a-257242770bdf")
 		)
 		(instances
 			(project "universalOpAmpV0"
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 213.36 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43f04f75-2d63-4a8a-8d7d-f0afb48fc65a")
-		(property "Reference" "C24"
-			(at 217.17 63.4999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 217.17 66.0399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.3252 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 213.36 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fc452a7f-bc92-41f6-94a6-e933532f392d")
-		)
-		(pin "2"
-			(uuid "ef60dd4f-5098-48bc-bf3e-4d01b8ba888e")
-		)
-		(instances
-			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 203.2 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45953f22-3ab9-4583-8dbf-f7342b3aa8d8")
-		(property "Reference" "C21"
-			(at 207.01 55.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 207.01 58.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.1652 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 203.2 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "caebf937-9ef7-4a80-a0ed-36d27fdd789c")
-		)
-		(pin "1"
-			(uuid "c00a30b3-abf6-498e-a8f4-0884f9890711")
-		)
-		(instances
-			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
-					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -3900,10 +3372,10 @@
 			)
 		)
 		(pin "5"
-			(uuid "cd0f9dc0-9f5a-4a8d-bb2e-5f491769b376")
+			(uuid "834d5b64-ebaa-4506-b5a4-20797f2fca33")
 		)
 		(pin "2"
-			(uuid "5230fcb0-10a0-49c5-88d6-889414da62cf")
+			(uuid "2754c42c-ee77-46e7-9f17-17f846872858")
 		)
 		(pin "4"
 			(uuid "3948949a-2d92-46ed-b156-bea6e0c67a41")
@@ -3991,10 +3463,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "de87b394-fab6-4425-8a14-9a546974f48b")
+			(uuid "aa12429a-50a7-4d77-86cc-db78effa37e0")
 		)
 		(pin "2"
-			(uuid "48777e35-b654-43c9-bf8e-72e2289b7164")
+			(uuid "49ccb2dc-ef97-428b-b613-daaf3fda8cc6")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -4071,13 +3543,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "d6131fbb-4067-45fc-8d00-537dbc2553f8")
+			(uuid "a8e8746f-43f5-41d2-8312-16bb03a65678")
 		)
 		(pin "1"
-			(uuid "089e85a3-9c65-412a-9733-999671fcefa8")
+			(uuid "e14edb04-8110-47fa-91b0-f439967a6b77")
 		)
 		(pin "3"
-			(uuid "693c7a81-fdfc-43a1-a082-30821daccd99")
+			(uuid "390cc4ef-bd66-43b0-9021-8161dda6dac8")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -4154,16 +3626,16 @@
 			)
 		)
 		(pin "4"
-			(uuid "f6aeae79-fc05-45a5-afb7-8682e07b63d7")
+			(uuid "77d7c134-2a18-4443-a765-bb2352c0c72f")
 		)
 		(pin "2"
 			(uuid "9bcacaa7-2435-40e7-aeb5-4c81dd77b45b")
 		)
 		(pin "3"
-			(uuid "e9d827bc-6b6f-4c5a-8505-dad59ddb44a8")
+			(uuid "4958bca7-c07f-4b16-9c4b-62829fa7d592")
 		)
 		(pin "1"
-			(uuid "5f477423-fb10-40f8-8877-bf59f71a0781")
+			(uuid "fbebe73f-fe75-46c1-8792-8898806efb73")
 		)
 		(pin "5"
 			(uuid "8db28bb1-6250-4d2b-b0ef-887e59d97872")
@@ -4246,13 +3718,13 @@
 			)
 		)
 		(pin "5"
-			(uuid "f7cff22c-e4a4-4a7a-b423-25524d32800c")
+			(uuid "e92b16c4-d6b3-4d7c-a272-ef9e82e23ed8")
 		)
 		(pin "8"
-			(uuid "44513036-0abd-47f9-a3ab-f02653fbc7a9")
+			(uuid "901b4862-d354-4374-9df4-5446aaf988cf")
 		)
 		(pin "2"
-			(uuid "f7618636-b801-4537-85c8-b727a7e01e87")
+			(uuid "4b673e48-9430-4633-938a-eeec6d8da207")
 		)
 		(pin "5"
 			(uuid "ce4dd820-2433-4530-a515-57672d916772")
@@ -4264,19 +3736,19 @@
 			(uuid "2ef130fb-0440-4cd1-9194-cb0232b405e8")
 		)
 		(pin "6"
-			(uuid "a4ed6e03-b6dd-4359-b832-9d60cfcbeb0d")
+			(uuid "d9923927-0dee-40cb-bf51-ae263acc7489")
 		)
 		(pin "8"
 			(uuid "f1bac172-3ec7-4782-abb4-bbc86670901f")
 		)
 		(pin "3"
-			(uuid "a7ec2401-f477-44ff-92e4-4b173aebb837")
+			(uuid "2d4d3e5e-ba74-476a-827f-994b25cb87bd")
 		)
 		(pin "2"
 			(uuid "0fc49d98-35b2-465e-ad76-c624f7067ed0")
 		)
 		(pin "1"
-			(uuid "a556f7cd-81bf-440d-aa8c-95194970f48f")
+			(uuid "f256c9e1-5e1e-4fc5-b8ba-f805b95046e5")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -4354,90 +3826,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b8864581-9d35-41bf-8f4c-5c9c7e022477")
+			(uuid "500a6048-1b7c-4486-ad45-21a69dd4aad3")
 		)
 		(instances
 			(project "universalOpAmpV0"
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+VDC")
-		(at 203.2 52.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6622da17-ecd4-4cf2-909d-b97444285cbd")
-		(property "Reference" "#PWR021"
-			(at 203.2 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+VDC"
-			(at 203.2 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+VDC\""
-			(at 203.2 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "154dcdea-c07e-4b51-9a33-864028751d1a")
-		)
-		(instances
-			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -4508,10 +3902,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7f43c1d7-4a57-460b-ac4b-14afd6b69f42")
+			(uuid "3210a18e-914d-43a8-b9aa-846212c38ec2")
 		)
 		(pin "2"
-			(uuid "d46b33b3-c8f6-46b5-82ce-ba939b21df29")
+			(uuid "479068ae-a97e-417a-a236-fc4c99f09f9b")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -4588,13 +3982,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "394e0e10-ab81-4119-a33b-fc2226988044")
+			(uuid "44c08a65-cc05-4fb7-852f-bd206f3edc02")
 		)
 		(pin "2"
-			(uuid "175647a8-80a4-49e7-b7f5-122d8261df24")
+			(uuid "4b625f99-7fc9-4b18-8304-767aad1cdbad")
 		)
 		(pin "1"
-			(uuid "32a8f20a-9cb2-4e3a-98a5-4be867f1bf98")
+			(uuid "e0789b4c-11fe-4321-8ce1-642a9c79d52b")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -4672,10 +4066,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "215058d9-1b4f-4aa0-a5a0-c73b1897c60c")
+			(uuid "4531efc4-097e-4b1c-9c79-3f6cf7cf212c")
 		)
 		(pin "2"
-			(uuid "1680d697-7d96-404a-9030-bbee80597762")
+			(uuid "830b8830-c9fd-4f6c-b8cf-1f5253e51fab")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -4753,7 +4147,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a4fae5e8-ff20-4986-a6af-f3768a2555a0")
+			(uuid "98eaf673-ae45-4448-ac30-2f26cb77641e")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -4829,93 +4223,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a13d4385-f8a6-4f2a-81b9-381f29d02704")
+			(uuid "183efb8d-71e7-477f-92c8-7e568ae5c633")
 		)
 		(pin "1"
-			(uuid "85065e20-41ea-4f4f-bea1-a751ce45b3f0")
+			(uuid "98772911-5419-4150-86f6-aa95c2192293")
 		)
 		(instances
 			(project "universalOpAmpV0"
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 227.33 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7bf08554-bf3d-44ed-a7f7-fc7b3a2e5f7a")
-		(property "Reference" "#PWR023"
-			(at 227.33 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 227.33 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.33 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 227.33 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2f9dbf44-14d8-4f23-a903-3b3dde30e4f6")
-		)
-		(instances
-			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -4988,94 +4304,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "36f4f036-8c0b-496a-bece-26defaa31478")
+			(uuid "9942f434-74fa-4f12-b98e-a0b40d4946af")
 		)
 		(instances
 			(project "universalOpAmpV0"
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 213.36 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81e06555-7841-4fa8-9006-f1bebfe78df0")
-		(property "Reference" "C23"
-			(at 217.17 55.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 217.17 58.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.3252 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 213.36 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3f63f2d5-4f84-4a7d-9bc2-b7bed5dfa425")
-		)
-		(pin "2"
-			(uuid "faa49d6a-baa4-44d5-8c47-bc534f53a140")
-		)
-		(instances
-			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
-					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -5149,10 +4383,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "b43769b3-a16d-4302-8f85-11c77ea06bb5")
+			(uuid "efc3f859-ff12-4981-92af-e0f6e6437136")
 		)
 		(pin "1"
-			(uuid "1149a348-d0d5-47d9-a231-6afba5aefe33")
+			(uuid "1a411d36-d924-4d18-ba2a-edb1dbae2276")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -5230,10 +4464,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1780119d-8030-4290-b3d8-364ff23808c0")
+			(uuid "cc6b1aa1-0f12-4190-9f24-c04d4f6a38a4")
 		)
 		(pin "2"
-			(uuid "88938a58-5ba9-49e0-8f4a-b41712199947")
+			(uuid "ea89c806-5f34-4a24-87af-6ebea74090d2")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -5312,7 +4546,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9b2774cf-0a09-4634-b5bb-84e05cdbe48b")
+			(uuid "48915425-f50a-4a3b-b06c-8897983571b5")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -5397,13 +4631,13 @@
 			(uuid "5230fcb0-10a0-49c5-88d6-889414da62d0")
 		)
 		(pin "4"
-			(uuid "3948949a-2d92-46ed-b156-bea6e0c67a42")
+			(uuid "08b87672-b0b6-40eb-b461-684658ed6cc2")
 		)
 		(pin "3"
-			(uuid "add10186-5d05-4112-b3e1-0cf1e4d64eef")
+			(uuid "3c80b6f8-f674-422c-bfd5-db87270e4294")
 		)
 		(pin "1"
-			(uuid "269f7397-6718-4427-9391-cd0df5c13e88")
+			(uuid "183b2f92-5785-484f-acd4-dfd58a9c6a3f")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -5486,7 +4720,7 @@
 			(uuid "f6aeae79-fc05-45a5-afb7-8682e07b63d8")
 		)
 		(pin "2"
-			(uuid "9bcacaa7-2435-40e7-aeb5-4c81dd77b45c")
+			(uuid "697ae4b8-4c84-49e5-9586-bc674a59cb7e")
 		)
 		(pin "3"
 			(uuid "e9d827bc-6b6f-4c5a-8505-dad59ddb44a9")
@@ -5495,7 +4729,7 @@
 			(uuid "5f477423-fb10-40f8-8877-bf59f71a0782")
 		)
 		(pin "5"
-			(uuid "8db28bb1-6250-4d2b-b0ef-887e59d97873")
+			(uuid "09c9696d-f66b-4f64-bd34-501e7d722453")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -5573,13 +4807,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "4e34f69f-8c6d-43a5-b592-d0af28251220")
+			(uuid "1cd25114-5fbb-4325-9a65-59e2ace9b6e1")
 		)
 		(pin "1"
-			(uuid "b5c7035a-fd63-4662-a566-45a28f4c9c0a")
+			(uuid "1e4b95ca-d38d-4662-8b12-8e05cfe3ee3b")
 		)
 		(pin "3"
-			(uuid "1adeeb9d-5e3f-4ff1-b177-8648681f1577")
+			(uuid "9cc63160-cbfc-46a7-85dd-04e704c52186")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -5657,7 +4891,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d2f2099d-33de-4853-bd50-29c6f9cee662")
+			(uuid "9eb514c8-ad3d-491b-aac7-8e47f7b4cf91")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -5735,93 +4969,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "868fe0a8-dc0c-4806-b345-55d41706b54d")
+			(uuid "3e32c0e2-e9e1-4320-b386-a8cc0a34eafa")
 		)
 		(instances
 			(project "universalOpAmpV0"
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 193.04 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ad371bce-fc8a-4949-8102-735bcd0655a6")
-		(property "Reference" "C19"
-			(at 189.23 54.9909 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C_Polarized"
-			(at 189.23 57.5309 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.0052 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 193.04 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e2f35515-455d-4e3e-93bf-c771b000d441")
-		)
-		(pin "2"
-			(uuid "e0d92e73-a9e2-40b1-865f-ee8bea8c3df6")
-		)
-		(instances
-			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
-					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -5892,10 +5045,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "ea90cb62-a3d8-4c0c-9433-0902a8a8697a")
+			(uuid "54471f2a-855d-47b1-ac87-70b20cdeb9ca")
 		)
 		(pin "1"
-			(uuid "f078c88b-96df-495a-bfac-fcd8bd773e5f")
+			(uuid "0bc96c62-9113-4896-8b69-1bd8e86dfbaa")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -5975,10 +5128,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d19a9200-6c63-4385-9b41-ab3cccf754d7")
+			(uuid "342c88be-6b89-481f-bbc4-3cca81cbc2f2")
 		)
 		(pin "2"
-			(uuid "6a44e566-e0db-43d9-bbca-b914aa4d189e")
+			(uuid "fec29532-c32a-497c-aef5-0b4d36bf06f7")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -6057,10 +5210,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d20a2339-8ca1-4ea9-b07d-54f87c204276")
+			(uuid "9c18a4e8-dbf7-4073-8559-b2e599ba78ff")
 		)
 		(pin "2"
-			(uuid "4dca8ad9-41bc-4496-8b21-1b36ebef92a5")
+			(uuid "3e12b337-f262-4c50-9b07-15244062374d")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -6140,10 +5293,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "7f96d755-9c12-4875-961e-d61bb96e2f87")
+			(uuid "4b2eeee7-9d8b-42de-8db8-4aa774469878")
 		)
 		(pin "1"
-			(uuid "7ffe6eaf-ba68-4431-a52b-4c898b15754d")
+			(uuid "771a27b7-de1e-4565-be9c-5766fb23038a")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -6219,96 +5372,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "d390482e-1fc6-4160-a89b-04aeed0e8e71")
+			(uuid "7d2a849c-0b52-4b19-8704-96efe7abec8e")
 		)
 		(pin "1"
-			(uuid "92185ef4-9d66-4334-a5be-d479f6b9669d")
+			(uuid "5f6dad50-2f4e-4201-a072-ed47fa6d72ee")
 		)
 		(instances
 			(project "universalOpAmpV0"
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 193.04 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e2618906-ce8b-441b-9f14-2be4f05a55c2")
-		(property "Reference" "C20"
-			(at 189.23 62.6109 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C_Polarized"
-			(at 189.23 65.1509 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.0052 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 193.04 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "14a9f0d5-1fc6-4b10-9ae7-9d81ee56d740")
-		)
-		(pin "2"
-			(uuid "5225f11a-7204-45fc-bc19-c789d8c2ec28")
-		)
-		(instances
-			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f/5d62f848-01bc-4b5b-b6c6-edef66e267d0"
-					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -6381,7 +5453,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "749058c2-f0e2-4cc3-981e-72b73d80fcc1")
+			(uuid "c8add604-ad48-4c70-9abc-fa7dd69eb3a4")
 		)
 		(instances
 			(project "universalOpAmpV0"

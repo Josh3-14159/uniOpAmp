@@ -2423,10 +2423,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e91ba09b-1d06-4b8e-9c5b-dcaeea60620c")
+			(uuid "ff63c596-2e63-477e-bb94-c55f4a5ed3fd")
 		)
 		(pin "1"
-			(uuid "9f294a4b-72d1-4722-a33a-97bbcbf232ca")
+			(uuid "91db4b2e-68c4-450e-83e2-e8e906690a8d")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -2504,10 +2504,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0846717a-9b13-4de1-b153-3ea3e38e3612")
+			(uuid "016d3c9c-7fc5-4bf0-a3ce-004d92a6002a")
 		)
 		(pin "2"
-			(uuid "a6456aef-8e91-4360-b285-bfeeb2b7108c")
+			(uuid "960d9ea3-51af-4944-8a10-f4fc4fc25f16")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -2585,10 +2585,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "cb95639b-d4c9-47b2-bbf5-3b13ceb202e4")
+			(uuid "6e605b85-3360-4b7a-b6d5-f796831a02a1")
 		)
 		(pin "2"
-			(uuid "133da0da-7d9f-4ca3-8170-a20477f4f40f")
+			(uuid "7d673076-2ecf-44f0-9c0b-f2847e55e29a")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -2667,10 +2667,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "89b82b2d-52ca-48cf-82f1-3ada28403aa0")
+			(uuid "9953498d-fc81-4160-9b43-60a4de88bffe")
 		)
 		(pin "1"
-			(uuid "8e14277f-ae41-4a58-a388-cd63f4b6c4a6")
+			(uuid "387f91cc-fd5e-4eb5-a836-f0c2bad82c42")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -2752,7 +2752,7 @@
 			)
 		)
 		(pin "5"
-			(uuid "e9240ce6-8119-49d6-bb8e-bfaba401def6")
+			(uuid "a45baaf7-e2bd-403c-8b46-57ab374d71ee")
 		)
 		(pin "8"
 			(uuid "44513036-0abd-47f9-a3ab-f02653fbc7a8")
@@ -2764,22 +2764,22 @@
 			(uuid "ce4dd820-2433-4530-a515-57672d916771")
 		)
 		(pin "7"
-			(uuid "40bcc24e-38b9-4817-9c31-429fcfe5ab69")
+			(uuid "0d236655-613b-4d27-a96e-25651f5844c9")
 		)
 		(pin "4"
-			(uuid "c510a611-e977-4c63-a09b-ee5243af0915")
+			(uuid "5bf4ef29-37e6-4e1e-8687-0f8b4da83e01")
 		)
 		(pin "6"
 			(uuid "a4ed6e03-b6dd-4359-b832-9d60cfcbeb0c")
 		)
 		(pin "8"
-			(uuid "1514cda5-aee2-4a56-9ec0-80c14a340bd7")
+			(uuid "aaa97560-41a1-4ad3-98ab-5c38e27d7ff0")
 		)
 		(pin "3"
 			(uuid "a7ec2401-f477-44ff-92e4-4b173aebb836")
 		)
 		(pin "2"
-			(uuid "0fc49d98-35b2-465e-ad76-c624f7067ecf")
+			(uuid "78f17e00-42e2-445b-9761-b6757e6b63c1")
 		)
 		(pin "1"
 			(uuid "a556f7cd-81bf-440d-aa8c-95194970f48e")
@@ -2861,10 +2861,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7321a690-71e8-411b-943a-f416ec2ded34")
+			(uuid "f90a61db-3ddf-4417-90a7-d1ec571b272c")
 		)
 		(pin "2"
-			(uuid "8be65f61-bd81-449a-8207-495938241062")
+			(uuid "a6821102-e7c2-4294-a51b-7312c2b9e57f")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -2943,10 +2943,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ef216c7d-be8f-4072-8938-14411351e05a")
+			(uuid "5a5d0a46-5966-4f22-88f8-f10242987604")
 		)
 		(pin "2"
-			(uuid "23f21b5d-c563-473b-8e9f-ac492b3ab8d5")
+			(uuid "9a41d087-ecc9-4964-8d8c-300b14d45f1b")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -3024,13 +3024,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "0106b0cb-d833-447e-b0d7-10cf3c4cb071")
+			(uuid "a60feefc-e34d-4a53-99d9-0da3539fb4e2")
 		)
 		(pin "1"
-			(uuid "a0bbc5f8-b86a-4882-871f-00d9db4e045d")
+			(uuid "9a47cf40-c519-4dc5-a797-206caf5755b3")
 		)
 		(pin "2"
-			(uuid "759f3134-af77-465b-99c8-60f967f83459")
+			(uuid "612793be-2a01-4c23-8f59-b5ed010be999")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -3108,7 +3108,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "987bcade-29fb-4cd3-b013-37c4f629bc1c")
+			(uuid "58eb071c-4074-4e34-899a-2491ef30f44f")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -3186,7 +3186,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "682bceaa-b4f1-40c4-9544-3f7aea273eed")
+			(uuid "f54241a2-b409-45a7-8343-ecd998ff1a6a")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -3264,13 +3264,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "7191b7ee-058e-4d17-8c4e-1a8c08a01a85")
+			(uuid "091e7673-8777-48bf-a5e3-af52dc8614d3")
 		)
 		(pin "1"
-			(uuid "9348b7b4-33c6-4586-bd89-2ca97896783b")
+			(uuid "bfdba882-4d4a-4583-8351-2ad7b9d98a43")
 		)
 		(pin "2"
-			(uuid "a0e4db49-cba9-462f-b7db-ad34ff34f182")
+			(uuid "5a04d72e-8b8a-45b4-9b43-6648f669b9e4")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -3348,31 +3348,31 @@
 			)
 		)
 		(pin "MP"
-			(uuid "834c9715-b971-4f9a-aff1-8ab0d508829b")
+			(uuid "ef5db0c6-79d8-4cdd-86f6-522d5f939fbb")
 		)
 		(pin "3"
-			(uuid "6c9d7248-545f-46aa-bdd5-f5c01a85dde9")
+			(uuid "52522ada-f451-4ab8-a6f2-73b6affda934")
 		)
 		(pin "1"
-			(uuid "36bbaa74-3b3e-4a39-8504-8e4237388d30")
+			(uuid "4a7332b6-d525-4640-a9f4-c931db060dc7")
 		)
 		(pin "2"
-			(uuid "7d6018d4-1a1e-4bcc-92f0-292143c0d6a1")
+			(uuid "66142bce-d284-4e5c-8ccb-acd6a6a82bcb")
 		)
 		(pin "6"
-			(uuid "4da7887c-993d-48ca-8573-d9a1aa20e589")
+			(uuid "2b465799-3979-4edc-bc0b-a6ec51539e14")
 		)
 		(pin "5"
-			(uuid "f4ace04f-6241-4eee-967c-314d2c873446")
+			(uuid "bc48b3a1-ca43-4c8a-b22e-50336ab592e5")
 		)
 		(pin "8"
-			(uuid "0d7492ef-9f6d-4e52-9c8a-e34424761d79")
+			(uuid "656786f7-d359-451f-b1f7-0fb5e5ae22cc")
 		)
 		(pin "4"
-			(uuid "0ab34826-034f-4edd-8691-fda8035f4406")
+			(uuid "f2312f03-089d-4a6d-bdbe-283cf42635d9")
 		)
 		(pin "7"
-			(uuid "353fa7e9-2683-452e-8474-30176b1413d1")
+			(uuid "7ad290fc-ce20-45bd-a4b0-22bc61e7b130")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -3455,13 +3455,13 @@
 			(uuid "fac6c174-bbfa-4409-b434-4f0f3fbd212c")
 		)
 		(pin "8"
-			(uuid "44513036-0abd-47f9-a3ab-f02653fbc7a9")
+			(uuid "bea73e3e-7b26-4c93-91c4-0e3d090e369a")
 		)
 		(pin "2"
-			(uuid "f7618636-b801-4537-85c8-b727a7e01e87")
+			(uuid "7321b6d8-74e0-4477-b77a-6bde62f81b58")
 		)
 		(pin "5"
-			(uuid "ce4dd820-2433-4530-a515-57672d916772")
+			(uuid "5f657cd3-7631-4c89-ba99-9093cfa1aea1")
 		)
 		(pin "7"
 			(uuid "704db0eb-ec56-471a-86d0-76d1f36cf5db")
@@ -3470,19 +3470,19 @@
 			(uuid "2ef130fb-0440-4cd1-9194-cb0232b405e8")
 		)
 		(pin "6"
-			(uuid "62ccd355-6979-4496-baf2-39a943e05fb0")
+			(uuid "cf96c9d3-711f-407a-b40e-f3bb118ac34d")
 		)
 		(pin "8"
 			(uuid "23648ca2-1484-44b0-bf1f-50372be67041")
 		)
 		(pin "3"
-			(uuid "9eda232c-676d-47db-97c2-a8faa6860359")
+			(uuid "e21ae45d-3a51-4aac-811a-b38cfc3ecf52")
 		)
 		(pin "2"
 			(uuid "0a8c957b-dc01-4c0d-ba38-eb7fab9f5c42")
 		)
 		(pin "1"
-			(uuid "bca4fc6b-d0af-43ef-8439-c69086cc59ad")
+			(uuid "753b268f-4071-4737-a48f-3832ad0ce695")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -3560,7 +3560,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9c7c8416-9704-4d48-97de-03ee2c48abeb")
+			(uuid "a09e7f0c-c303-4677-9e56-58ed938895cd")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -3636,10 +3636,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "f7f1491a-e412-4e49-bf75-397f646206e7")
+			(uuid "6636f36e-fe66-44c1-9917-5c7ccc1813db")
 		)
 		(pin "1"
-			(uuid "ff18c690-d35f-4e72-ac66-ad757b7da1bb")
+			(uuid "0394e26e-2336-4446-b13f-ab0665b46ef7")
 		)
 		(instances
 			(project "universalOpAmpV0"
