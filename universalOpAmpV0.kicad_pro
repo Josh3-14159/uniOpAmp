@@ -542,7 +542,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "junkTestGerbers/6layer/",
       "specctra_dsn": "",
       "vrml": ""
     },
