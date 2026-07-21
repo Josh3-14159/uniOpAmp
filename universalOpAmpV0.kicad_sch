@@ -853,6 +853,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Dumbass, just use a 4 or (wait for it) \n6 way spst dip switch"
+		(exclude_from_sim no)
+		(at 188.722 145.034 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9fb61d74-2434-4ba7-bb98-ffa273440d6a")
+	)
 	(text "Summing Amplifier Module\n(Excluded From Board at the moment)\nmodify dashed rectangle properties to fix\n"
 		(exclude_from_sim no)
 		(at 208.026 128.016 0)
@@ -4881,6 +4891,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 266.7 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "044254bc-b82f-46ba-b0ac-0f541455a808")
+		(property "Reference" "J6"
+			(at 266.3826 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BNC I1"
+			(at 266.3826 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "uniOpAmpLib:BNC-0731000105"
+			(at 266.7 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 266.7 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2cd1282-fea4-42d5-a502-5d9b7b119579")
+		)
+		(pin "2"
+			(uuid "b9fe3493-2d77-4cf9-959d-ef7d2c0fde64")
+		)
+		(instances
+			(project "universalOpAmpV0"
+				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 266.7 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "14328030-b2e3-4c47-8509-c7817c7bac1e")
+		(property "Reference" "J5"
+			(at 266.3826 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BNC I1"
+			(at 266.3826 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "uniOpAmpLib:BNC-0731000105"
+			(at 266.7 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 266.7 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0180469-d202-4e3d-a93f-0583d9a0ed30")
+		)
+		(pin "2"
+			(uuid "b492b497-d971-4806-abe3-7a4debb263ea")
+		)
+		(instances
+			(project "universalOpAmpV0"
+				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 25.4 77.47 0)
 		(unit 1)
@@ -5129,167 +5297,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 25.4 107.95 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44e83a5e-bd2e-4621-9a1a-507ca6f894f6")
-		(property "Reference" "J3"
-			(at 25.7174 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BNC I3"
-			(at 25.7174 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 25.4 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dde4a2bd-be1c-4c6e-9d8d-ef40c33b519c")
-		)
-		(pin "1"
-			(uuid "ef321133-2148-4d5b-96ac-849124ebf337")
-		)
-		(instances
-			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 266.7 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5996bffb-de51-4452-a35a-78dd009d5f96")
-		(property "Reference" "J5"
-			(at 266.3826 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BNC O2"
-			(at 266.3826 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 266.7 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2c5b6d90-4936-4e6d-928e-4270e5ba366b")
-		)
-		(pin "2"
-			(uuid "b356db0d-b73f-4ee1-a379-ddd6b13a9319")
-		)
-		(instances
-			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Network04_Split")
 		(at 158.75 137.16 0)
 		(unit 3)
@@ -5376,6 +5383,87 @@
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
 					(reference "RN1")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 25.4 107.95 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78d391bb-d6f6-4bac-b4cc-0c100e34170e")
+		(property "Reference" "J3"
+			(at 25.7174 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BNC I1"
+			(at 25.7174 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "uniOpAmpLib:BNC-0731000105"
+			(at 25.4 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 25.4 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82dbe50a-fcc0-44c4-891c-98cb1fa00d7e")
+		)
+		(pin "2"
+			(uuid "4a287228-325f-45bc-93ee-bf252381020f")
+		)
+		(instances
+			(project "universalOpAmpV0"
+				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
+					(reference "J3")
+					(unit 1)
 				)
 			)
 		)
@@ -5561,7 +5649,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a6c25acd-8a88-4766-b74c-c5c88e2c497a")
+		(uuid "8f14a0b1-250e-4283-8b57-2e34d2d900a3")
 		(property "Reference" "J2"
 			(at 25.7174 63.5 0)
 			(show_name no)
@@ -5572,7 +5660,7 @@
 				)
 			)
 		)
-		(property "Value" "BNC I2"
+		(property "Value" "BNC I1"
 			(at 25.7174 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5582,7 +5670,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "uniOpAmpLib:BNC-0731000105"
 			(at 25.4 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5616,15 +5704,94 @@
 			)
 		)
 		(pin "1"
-			(uuid "fd9ad180-5792-4471-b4f3-548297356699")
+			(uuid "65f1d396-a06c-440e-bf0a-fde54cbbeaf9")
 		)
 		(pin "2"
-			(uuid "e4383d28-efa4-48b0-b038-28db4f359e21")
+			(uuid "3ffc5290-d073-465c-b748-949a1fd9ed9e")
 		)
 		(instances
 			(project "universalOpAmpV0"
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 266.7 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9a559172-773f-4c02-8445-4ef1fa423f9b")
+		(property "Reference" "J4"
+			(at 266.3826 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BNC I1"
+			(at 266.3826 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "uniOpAmpLib:BNC-0731000105"
+			(at 266.7 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 266.7 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "594026f6-39f3-4403-9715-7d1899b3ded1")
+		)
+		(pin "2"
+			(uuid "8a0962ba-5372-4b44-a3c0-5c87d7f6773d")
+		)
+		(instances
+			(project "universalOpAmpV0"
+				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5833,7 +6000,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "uniOpAmpLib:BNC-0731000105"
 			(at 25.4 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -5876,86 +6043,6 @@
 			(project "universalOpAmpV0"
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 266.7 31.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c147cdc9-0a4b-44f1-b8f6-0c87fa35ad44")
-		(property "Reference" "J4"
-			(at 266.3826 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BNC O1"
-			(at 266.3826 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 266.7 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8057de1a-8e16-481c-9b24-9305c53b4a3d")
-		)
-		(pin "2"
-			(uuid "9d354bee-378f-4782-ba94-b093d7b70f5e")
-		)
-		(instances
-			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -6127,86 +6214,6 @@
 			(project "universalOpAmpV0"
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
 					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 266.7 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3ea838f-fde8-4c42-8826-8ff7edce4e79")
-		(property "Reference" "J6"
-			(at 266.3826 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BNC O3"
-			(at 266.3826 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 266.7 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a6587648-6047-46a7-8cb7-69cf2e70a2fa")
-		)
-		(pin "1"
-			(uuid "021df899-0bde-4063-8860-a1fb3899a155")
-		)
-		(instances
-			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -6443,6 +6450,298 @@
 			(project "universalOpAmpV0"
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 58.42)
+		(size 26.67 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1b2c7f83-b905-45eb-a0c7-9ab99afb26c8")
+		(property "Sheetname" "OpAmpBlock2"
+			(at 88.9 57.7084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OpAmpBlock.kicad_sch"
+			(at 88.9 83.1346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "P" input
+			(at 88.9 77.47 180)
+			(uuid "5f7ca65c-4d4a-42d9-8fd6-ae6c006ce74d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "N" input
+			(at 88.9 67.31 180)
+			(uuid "ebc573ea-1af1-4352-9053-aaabad07adb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1A" output
+			(at 115.57 63.5 0)
+			(uuid "bd94fe31-6054-4df3-88ed-ad64157deb8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2A" output
+			(at 115.57 66.04 0)
+			(uuid "af81da70-365f-49af-902a-44a1a1434585")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3A" output
+			(at 115.57 68.58 0)
+			(uuid "c7061636-c961-4512-a080-10f5d207ac9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "4A" output
+			(at 115.57 71.12 0)
+			(uuid "fa88beaf-03df-4eb1-8549-0c61846b290d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5A" output
+			(at 115.57 73.66 0)
+			(uuid "0bfe9977-565c-4019-a5fb-3972b87d12a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "6A" output
+			(at 115.57 76.2 0)
+			(uuid "b007d51e-26ae-4b95-814f-37749fb56ab1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "7A" output
+			(at 115.57 78.74 0)
+			(uuid "f16d14d5-0033-413c-8603-a3abc5bc01fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "8A" output
+			(at 115.57 81.28 0)
+			(uuid "2f26e642-e2e6-455c-a7ba-900a363bd418")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "A" output
+			(at 115.57 59.69 0)
+			(uuid "3e36fd1a-7dad-4bb8-b2a0-ba589f3b455b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "universalOpAmpV0"
+				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 60.96)
+		(size 15.24 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "248e0a52-6ac7-4573-b180-c7bb6a408c88")
+		(property "Sheetname" "InputStage2"
+			(at 33.02 60.2484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "InputStage.kicad_sch"
+			(at 33.02 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1I" output
+			(at 48.26 62.23 0)
+			(uuid "97330e46-848d-403d-a554-75e032730a70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2I" output
+			(at 48.26 64.77 0)
+			(uuid "d0cb5c8d-4ea6-496a-94a2-c4d25cd8d5e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3I" output
+			(at 48.26 67.31 0)
+			(uuid "6dd3a0e0-3bca-408e-b1da-b71452a35568")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "4I" output
+			(at 48.26 69.85 0)
+			(uuid "6d947b39-217d-436f-abc7-6c13e155f4ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5I" output
+			(at 48.26 72.39 0)
+			(uuid "b49cff11-c01e-44ab-a90e-442b227b14f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "6I" output
+			(at 48.26 74.93 0)
+			(uuid "6dd2e63b-9c22-4fe3-80ef-958c979ba0e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "7I" output
+			(at 48.26 77.47 0)
+			(uuid "10c384c3-f585-48cb-b395-5380b0ca4b0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "8I" output
+			(at 48.26 80.01 0)
+			(uuid "5db8fb93-2865-47c7-ab86-9d12ce3afcba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I" input
+			(at 33.02 69.85 180)
+			(uuid "e3343e0a-0aa5-4c72-8898-083d3d53fdfc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "universalOpAmpV0"
+				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
+					(page "13")
 				)
 			)
 		)
@@ -6687,6 +6986,318 @@
 		)
 	)
 	(sheet
+		(at 165.1 58.42)
+		(size 26.67 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "627fed65-c1e4-4e39-ba7c-848172b3338b")
+		(property "Sheetname" "OpAmpBlock5"
+			(at 165.1 57.7084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OpAmpBlock.kicad_sch"
+			(at 165.1 83.1346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "P" input
+			(at 165.1 77.47 180)
+			(uuid "feb4500a-ad2d-49fc-b751-7dc6beec057f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "N" input
+			(at 165.1 67.31 180)
+			(uuid "f5cc8ea5-b493-4afe-9dff-d1c966202f3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1A" output
+			(at 191.77 63.5 0)
+			(uuid "99f3f6e9-e622-450e-bd65-5bbfbc647401")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2A" output
+			(at 191.77 66.04 0)
+			(uuid "4053a5df-5528-40e8-bf60-d9fb162cb1dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3A" output
+			(at 191.77 68.58 0)
+			(uuid "4f563514-4175-4372-9604-b5ecc56a8bbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "4A" output
+			(at 191.77 71.12 0)
+			(uuid "06b2fa64-0170-4424-aa01-140b7ffc48b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5A" output
+			(at 191.77 73.66 0)
+			(uuid "4e6b986b-b3b8-4178-bf45-7be99102fb9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "6A" output
+			(at 191.77 76.2 0)
+			(uuid "c999bd69-d642-4947-9f50-ddc0ca8ea8f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "7A" output
+			(at 191.77 78.74 0)
+			(uuid "44b208e2-37be-4507-a985-f59043c70e91")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "8A" output
+			(at 191.77 81.28 0)
+			(uuid "90c45ce9-f45c-4554-a8ae-0acffae8bcba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "A" output
+			(at 191.77 59.69 0)
+			(uuid "3ec1a44f-ada1-4d82-9aac-b168d96131e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "universalOpAmpV0"
+				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 20.32)
+		(size 26.67 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "730a8ca0-f9a3-4f1a-ab66-bc96132899af")
+		(property "Sheetname" "OpAmpBlock4"
+			(at 165.1 19.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OpAmpBlock.kicad_sch"
+			(at 165.1 45.0346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "P" input
+			(at 165.1 39.37 180)
+			(uuid "0e8c7d0c-9937-47e7-9ff5-487377a0399d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "N" input
+			(at 165.1 29.21 180)
+			(uuid "2cb8f340-d345-420f-9787-d9d183ff120e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1A" output
+			(at 191.77 25.4 0)
+			(uuid "6f7b3669-6331-4f2b-b65e-51e8162f3c94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2A" output
+			(at 191.77 27.94 0)
+			(uuid "294f9a9b-fd6a-461c-9440-f90c21d46d32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3A" output
+			(at 191.77 30.48 0)
+			(uuid "599983a1-ea13-4e65-acc0-873c73611dc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "4A" output
+			(at 191.77 33.02 0)
+			(uuid "dda3a651-9a36-41b3-9bb3-e42a751f8a40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5A" output
+			(at 191.77 35.56 0)
+			(uuid "825a228a-ba1e-4cd8-8f15-cefa597d1c07")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "6A" output
+			(at 191.77 38.1 0)
+			(uuid "6b95710d-0879-404c-9884-151ad30c0fda")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "7A" output
+			(at 191.77 40.64 0)
+			(uuid "b0f49d97-fd10-4cd9-8c19-b211140d1cd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "8A" output
+			(at 191.77 43.18 0)
+			(uuid "3bea7b12-5d51-43ba-9089-d84d1b3f720f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "A" output
+			(at 191.77 21.59 0)
+			(uuid "98491671-6293-47c4-b57d-fc40db27aa67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "universalOpAmpV0"
+				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 100.33 152.4)
 		(size 27.94 26.67)
 		(exclude_from_sim no)
@@ -6728,6 +7339,454 @@
 			(project "universalOpAmpV0"
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 99.06)
+		(size 15.24 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a2242a1b-24c1-41af-bbc9-90925611ea53")
+		(property "Sheetname" "InputStage3"
+			(at 33.02 98.3484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "InputStage.kicad_sch"
+			(at 33.02 119.9646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1I" output
+			(at 48.26 100.33 0)
+			(uuid "7c516b9d-a34c-45ce-8396-2283eb6f6415")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2I" output
+			(at 48.26 102.87 0)
+			(uuid "c6d617f9-b85a-49f8-ae5a-6d9d33c8df2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3I" output
+			(at 48.26 105.41 0)
+			(uuid "e9192e99-670b-42be-b330-d016cb453027")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "4I" output
+			(at 48.26 107.95 0)
+			(uuid "4a092e40-a67b-4a2b-af16-dcc9f87dd2e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5I" output
+			(at 48.26 110.49 0)
+			(uuid "01ed75cd-c50e-44e1-bdd3-79fd052066f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "6I" output
+			(at 48.26 113.03 0)
+			(uuid "aa94cb1b-89e1-4e70-9aad-e48db5360a63")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "7I" output
+			(at 48.26 115.57 0)
+			(uuid "57e8280e-8333-4e37-aa9e-b733d37fd63a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "8I" output
+			(at 48.26 118.11 0)
+			(uuid "e0f2951d-bbd8-4810-ac82-c6d6345faedb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I" input
+			(at 33.02 107.95 180)
+			(uuid "a28781e8-093c-48d3-a5ab-f4e34798bb28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "universalOpAmpV0"
+				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 96.52)
+		(size 26.67 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b8aadcbe-9705-4349-bf15-9d18757db085")
+		(property "Sheetname" "OpAmpBlock3"
+			(at 88.9 95.8084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OpAmpBlock.kicad_sch"
+			(at 88.9 121.2346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "P" input
+			(at 88.9 115.57 180)
+			(uuid "765dfe5e-c802-464a-b5ee-235ba1626cba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "N" input
+			(at 88.9 105.41 180)
+			(uuid "7b10b1ec-5fa6-4fe8-b7c0-2a3c304e322e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1A" output
+			(at 115.57 101.6 0)
+			(uuid "7d860434-95a6-4aa9-a895-f1cf8cd623f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2A" output
+			(at 115.57 104.14 0)
+			(uuid "cba28737-3c57-42be-a82a-1c6c90938557")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3A" output
+			(at 115.57 106.68 0)
+			(uuid "ddb69ed1-f312-41f3-bd15-376cf0da520b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "4A" output
+			(at 115.57 109.22 0)
+			(uuid "18f79fa5-c6aa-49ae-9d1a-a6bfc40348f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5A" output
+			(at 115.57 111.76 0)
+			(uuid "252db23a-0913-4b55-9d8b-4b5306dded2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "6A" output
+			(at 115.57 114.3 0)
+			(uuid "e13e9806-45d6-49ea-a499-9f626b4c9797")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "7A" output
+			(at 115.57 116.84 0)
+			(uuid "98a75481-9803-4702-841c-77f55cac86e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "8A" output
+			(at 115.57 119.38 0)
+			(uuid "291fca95-099a-454e-9338-5bf4f03cb18b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "A" output
+			(at 115.57 97.79 0)
+			(uuid "8c8457aa-701f-4f7b-89b2-e49f932c0549")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "universalOpAmpV0"
+				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 96.52)
+		(size 26.67 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cadb6e12-84b5-4806-a016-7a336faba742")
+		(property "Sheetname" "OpAmpBlock6"
+			(at 165.1 95.8084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OpAmpBlock.kicad_sch"
+			(at 165.1 121.2346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "P" input
+			(at 165.1 115.57 180)
+			(uuid "a5f178da-a17b-409f-bef7-61906bcb14c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "N" input
+			(at 165.1 105.41 180)
+			(uuid "2fe48ac5-cd68-489b-8cad-cbb50495c335")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1A" output
+			(at 191.77 101.6 0)
+			(uuid "731287d0-5e37-4f68-b108-b0d3d1d5646a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2A" output
+			(at 191.77 104.14 0)
+			(uuid "0707c594-657e-4f9a-9aff-3e3040fea9b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3A" output
+			(at 191.77 106.68 0)
+			(uuid "77e1b415-92f5-4ee7-83ae-f3dcbfb947db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "4A" output
+			(at 191.77 109.22 0)
+			(uuid "7d8bc8df-1d2e-4f82-a270-d9e00a9aa143")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5A" output
+			(at 191.77 111.76 0)
+			(uuid "47f1b896-4a59-46c5-8ce6-64e19026d401")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "6A" output
+			(at 191.77 114.3 0)
+			(uuid "6d3dc469-560d-4c01-a605-5618bae1d6e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "7A" output
+			(at 191.77 116.84 0)
+			(uuid "0f108d0c-76d5-42b1-bfef-0455105662c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "8A" output
+			(at 191.77 119.38 0)
+			(uuid "6e2405a4-d79f-4cf1-8259-962cd1bc32ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "A" output
+			(at 191.77 97.79 0)
+			(uuid "f8a7f8a0-2ef1-47d3-ad21-ac0f44a13097")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "universalOpAmpV0"
+				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
+					(page "12")
 				)
 			)
 		)

@@ -666,7 +666,7 @@
         "uuid": "0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
       }
     ],
-    "used_designators": "L1,J7-13,RV4,U6-8,U11-12,RN3,SW14-15,SW45-48,R8-12,D7-30,C19-24,C31-45,C77-78,#PWR21-23,#PWR27-37,#PWR58-59",
+    "used_designators": "R10-11,U8-10,U13-14,SW15-43,SW45-49,RV4-13,D2-6,C32-75,C77-79,#PWR36-56,#PWR58-68,J2-6",
     "variants": []
   },
   "sheets": [
@@ -697,6 +697,34 @@
     [
       "8446620e-98b9-4ebe-b0ad-1c751e72710b",
       "FrequencyCounter"
+    ],
+    [
+      "1b2c7f83-b905-45eb-a0c7-9ab99afb26c8",
+      "OpAmpBlock2"
+    ],
+    [
+      "b8aadcbe-9705-4349-bf15-9d18757db085",
+      "OpAmpBlock3"
+    ],
+    [
+      "730a8ca0-f9a3-4f1a-ab66-bc96132899af",
+      "OpAmpBlock4"
+    ],
+    [
+      "627fed65-c1e4-4e39-ba7c-848172b3338b",
+      "OpAmpBlock5"
+    ],
+    [
+      "cadb6e12-84b5-4806-a016-7a336faba742",
+      "OpAmpBlock6"
+    ],
+    [
+      "248e0a52-6ac7-4573-b180-c7bb6a408c88",
+      "InputStage2"
+    ],
+    [
+      "a2242a1b-24c1-41af-bbc9-90925611ea53",
+      "InputStage3"
     ]
   ],
   "text_variables": {},
