@@ -191,7 +191,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Network04_Split"
+		(symbol "Switch:SW_DIP_x04"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -201,8 +201,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "RN"
-				(at 2.032 0 90)
+			(property "Reference" "SW"
+				(at 0 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -211,8 +211,8 @@
 					)
 				)
 			)
-			(property "Value" "R_Network04_Split"
-				(at 0 0 90)
+			(property "Value" "SW_DIP_x04"
+				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -221,18 +221,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Resistor_THT:R_Array_SIP5"
-				(at -2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -243,7 +232,7 @@
 					)
 				)
 			)
-			(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -254,7 +243,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "R network star-topology"
+			(property "Description" "4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -265,7 +254,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "R?Array?SIP*"
+			(property "ki_keywords" "dip switch"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -276,22 +265,173 @@
 					)
 				)
 			)
-			(symbol "R_Network04_Split_0_1"
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
+			(property "ki_fp_filters" "SW?DIP?x4*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_DIP_x04_0_0"
+				(circle
+					(center -2.032 5.08)
+					(radius 0.508)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
+				(circle
+					(center -2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 5.207) (xy 2.3622 6.2484)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.667) (xy 2.3622 3.7084)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.127) (xy 2.3622 1.1684)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -2.3876) (xy 2.3622 -1.3462)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DIP_x04_0_1"
+				(rectangle
+					(start -3.81 7.62)
+					(end 3.81 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SW_DIP_x04_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "R1"
+					(at -7.62 5.08 0)
+					(length 5.08)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -306,12 +446,10 @@
 						)
 					)
 				)
-			)
-			(symbol "R_Network04_Split_1_1"
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "R1.2"
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -326,12 +464,10 @@
 						)
 					)
 				)
-			)
-			(symbol "R_Network04_Split_2_1"
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "R2.2"
+					(at -7.62 0 0)
+					(length 5.08)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -346,12 +482,10 @@
 						)
 					)
 				)
-			)
-			(symbol "R_Network04_Split_3_1"
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "R3.2"
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -366,12 +500,10 @@
 						)
 					)
 				)
-			)
-			(symbol "R_Network04_Split_4_1"
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "R4.2"
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -386,275 +518,17 @@
 						)
 					)
 				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_Coded_SH-7080"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at -7.62 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Coded_SH-7080"
-				(at -7.62 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Button_Switch_SMD:Nidec_Copal_SH-7040B"
-				(at -7.62 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Rotary switch, 4-bit encoding, 16 positions, Gray code"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "rotary hex Gray"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Nidec*Copal*SH*7040*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_Coded_SH-7080_0_0"
-				(text "8"
-					(at -5.715 0 900)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "9"
-					(at -5.2832 2.1844 675)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "7"
-					(at -5.2832 -2.1844 1125)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "A"
-					(at -4.0386 4.0386 450)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "6"
-					(at -4.0386 -4.0386 1350)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "B"
-					(at -2.1844 5.2832 225)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "5"
-					(at -2.1844 -5.2832 1575)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "C"
-					(at 0 5.715 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "4"
-					(at 0 -5.715 1800)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "D"
-					(at 2.1844 5.2832 3375)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "3"
-					(at 2.1844 -5.2832 2025)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "E"
-					(at 4.0386 4.0386 3150)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "2"
-					(at 4.0386 -4.0386 2250)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "F"
-					(at 5.2832 2.1844 2925)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "1"
-					(at 5.2832 -2.1844 2475)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "0"
-					(at 5.715 0 2700)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "SW_Coded_SH-7080_0_1"
-				(polyline
-					(pts
-						(xy -0.254 -2.54) (xy -0.254 2.032) (xy -0.762 1.524) (xy -1.27 1.524) (xy 0 2.794) (xy 1.27 1.524)
-						(xy 0.762 1.524) (xy 0.254 2.032) (xy 0.254 -2.54) (xy -0.254 -2.54) (xy -0.254 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 7.62 7.62)
-					(end -7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "SW_Coded_SH-7080_1_1"
 				(pin passive line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "1"
+					(at 7.62 0 180)
+					(length 5.08)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -663,34 +537,16 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "2"
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -699,9 +555,9 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "8"
+					(at 7.62 5.08 180)
+					(length 5.08)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -709,24 +565,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -852,36 +690,320 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(text "Dumbass, just use a 4 or (wait for it) \n6 way spst dip switch"
-		(exclude_from_sim no)
-		(at 188.722 145.034 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(symbol "uniOpAmpLib:ResistorArray"
+			(pin_names
+				(offset 0)
+				(hide yes)
 			)
-		)
-		(uuid "9fb61d74-2434-4ba7-bb98-ffa273440d6a")
-	)
-	(text "Summing Amplifier Module\n(Excluded From Board at the moment)\nmodify dashed rectangle properties to fix\n"
-		(exclude_from_sim no)
-		(at 208.026 128.016 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 124 0 14 1)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
 			)
-			(justify right top)
+			(property "Value" "ResistorArray"
+				(at 19.05 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dip switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SW?DIP?x4*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ResistorArray_0_1"
+				(rectangle
+					(start -3.81 6.35)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -2.54 4.445)
+					(end 2.54 3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 1.905)
+					(end 2.54 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -0.635)
+					(end 2.54 -1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -3.175)
+					(end 2.54 -4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ResistorArray_1_1"
+				(pin passive line
+					(at -7.62 3.81 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 1.27 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -1.27 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -3.81 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -3.81 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -1.27 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 1.27 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 3.81 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
-		(uuid "e2c91111-fe41-469e-b3b7-034c3a19ccf7")
 	)
 	(junction
-		(at 163.83 115.57)
+		(at 162.56 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d6904d57-b31a-40e9-8777-2d887d268079")
+		(uuid "4dd46431-50ea-4462-91e3-22c119b30d30")
+	)
+	(junction
+		(at 162.56 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "922326a4-ce41-45a2-83a7-7cdf4a9388e6")
+	)
+	(junction
+		(at 162.56 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b819e2a7-89cf-4ef2-b3eb-49c846b3180c")
+	)
+	(junction
+		(at 162.56 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f00c3a2b-b63c-4d19-9eb7-dffbb5d87837")
 	)
 	(wire
 		(pts
@@ -945,7 +1067,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 132.08) (xy 158.75 133.35)
+			(xy 195.58 133.35) (xy 194.31 133.35)
 		)
 		(stroke
 			(width 0)
@@ -995,7 +1117,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 140.97) (xy 161.29 142.24)
+			(xy 179.07 135.89) (xy 177.8 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1005,7 +1127,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 140.97) (xy 153.67 142.24)
+			(xy 179.07 128.27) (xy 177.8 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1065,7 +1187,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 140.97) (xy 156.21 142.24)
+			(xy 179.07 130.81) (xy 177.8 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1175,7 +1297,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 140.97) (xy 158.75 142.24)
+			(xy 179.07 133.35) (xy 177.8 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1235,7 +1357,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 132.08) (xy 161.29 133.35)
+			(xy 195.58 135.89) (xy 194.31 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1292,6 +1414,16 @@
 			(type default)
 		)
 		(uuid "49141313-2fa5-4085-8dc8-6f4530e1f743")
+	)
+	(wire
+		(pts
+			(xy 160.02 115.57) (xy 162.56 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aa286da-152c-4922-98e6-e0e82fc195d1")
 	)
 	(wire
 		(pts
@@ -1382,6 +1514,16 @@
 			(type default)
 		)
 		(uuid "5f63a199-6ee4-478e-b1ba-92ecd3d86480")
+	)
+	(wire
+		(pts
+			(xy 162.56 128.27) (xy 162.56 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6158b6cf-81ba-4a46-8823-c03bc3159e89")
 	)
 	(wire
 		(pts
@@ -1555,7 +1697,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 115.57) (xy 163.83 115.57)
+			(xy 162.56 115.57) (xy 165.1 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1665,13 +1807,23 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 132.08) (xy 153.67 133.35)
+			(xy 195.58 128.27) (xy 194.31 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9aabae73-9a26-442e-acbb-097dc50897de")
+	)
+	(wire
+		(pts
+			(xy 162.56 115.57) (xy 162.56 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ce9f194-e437-4434-a34f-80f6ac89536d")
 	)
 	(wire
 		(pts
@@ -1845,16 +1997,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 115.57) (xy 163.83 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbf3ac5c-1e48-493e-8e02-32926dbae497")
-	)
-	(wire
-		(pts
 			(xy 191.77 101.6) (xy 194.31 101.6)
 		)
 		(stroke
@@ -1942,6 +2084,16 @@
 			(type default)
 		)
 		(uuid "d14b9b39-49c6-4f58-b64e-4e8632974f48")
+	)
+	(wire
+		(pts
+			(xy 162.56 133.35) (xy 162.56 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d54bc75b-5f7e-4744-928c-4dc0facbb0d7")
 	)
 	(wire
 		(pts
@@ -2075,7 +2227,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 132.08) (xy 156.21 133.35)
+			(xy 195.58 130.81) (xy 194.31 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2155,16 +2307,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 115.57) (xy 165.1 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdbe2e47-0757-411e-82fe-5094f053691b")
-	)
-	(wire
-		(pts
 			(xy 48.26 62.23) (xy 50.8 62.23)
 		)
 		(stroke
@@ -2172,6 +2314,16 @@
 			(type default)
 		)
 		(uuid "fe39109c-0eb9-4310-9cac-ec82b855dc4b")
+	)
+	(wire
+		(pts
+			(xy 162.56 130.81) (xy 162.56 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe3fc0c0-48c4-4fde-90ee-e7e3f9734f0b")
 	)
 	(wire
 		(pts
@@ -3073,7 +3225,7 @@
 	)
 	(global_label "A5"
 		(shape input)
-		(at 153.67 132.08 90)
+		(at 195.58 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3083,7 +3235,7 @@
 		)
 		(uuid "56ca14ab-1444-46e8-a4b5-541cbbe34232")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.67 126.7967 90)
+			(at 200.8633 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3217,7 +3369,7 @@
 	)
 	(global_label "P6"
 		(shape input)
-		(at 162.56 115.57 180)
+		(at 160.02 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3227,7 +3379,7 @@
 		)
 		(uuid "6b4c5f7c-4ed9-4986-87a3-a3d30d159eb8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.0953 115.57 0)
+			(at 154.5553 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3601,7 +3753,7 @@
 	)
 	(global_label "A2"
 		(shape input)
-		(at 158.75 132.08 90)
+		(at 195.58 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3611,7 +3763,7 @@
 		)
 		(uuid "95d87cf6-b85c-4bfe-9ae4-274172191470")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.75 126.7967 90)
+			(at 200.8633 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3697,7 +3849,7 @@
 	)
 	(global_label "A1"
 		(shape input)
-		(at 161.29 132.08 90)
+		(at 195.58 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3707,7 +3859,7 @@
 		)
 		(uuid "9cfd895b-df86-4673-8b3e-d88ff2dda022")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.29 126.7967 90)
+			(at 200.8633 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4777,7 +4929,7 @@
 	)
 	(global_label "A4"
 		(shape input)
-		(at 156.21 132.08 90)
+		(at 195.58 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4787,7 +4939,7 @@
 		)
 		(uuid "fe063437-7fbb-4d13-96eb-7bacaaf08835")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.21 126.7967 90)
+			(at 200.8633 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4869,25 +5021,6 @@
 				)
 				(justify left)
 			)
-		)
-	)
-	(rule_area
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(polyline
-			(pts
-				(xy 148.59 125.73) (xy 148.59 162.56) (xy 209.55 162.56) (xy 209.55 125.73)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid "d2246095-ffa3-4ef4-9f2f-c68a72f4a7d0")
 		)
 	)
 	(symbol
@@ -5206,188 +5339,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Network04_Split")
-		(at 153.67 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "377aada3-ef30-412b-bfdd-88842e21b24d")
-		(property "Reference" "RN1"
-			(at 156.21 135.8899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_Network04_Split"
-			(at 156.21 138.4299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP5"
-			(at 151.638 137.16 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 153.67 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4 resistor network, star topology, bussed resistors, split"
-			(at 153.67 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c2128f6d-8d07-4122-919d-df6f382b0a51")
-		)
-		(pin "4"
-			(uuid "c2e89ec3-19b5-4af7-bffd-3931478c1027")
-		)
-		(pin "3"
-			(uuid "5c796ad4-3054-48ba-8316-a6a5d46de690")
-		)
-		(pin "5"
-			(uuid "67dede7c-1d9a-4d0d-bd3d-fc22fcf3bad8")
-		)
-		(pin "1"
-			(uuid "dfc2b9d7-b379-44c2-aa1c-d332e5efb0ae")
-		)
-		(instances
-			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
-					(reference "RN1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Network04_Split")
-		(at 158.75 137.16 0)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "650311a0-4afb-49b8-9aef-cfe807808fdd")
-		(property "Reference" "RN1"
-			(at 161.29 135.8899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_Network04_Split"
-			(at 161.29 138.4299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP5"
-			(at 156.718 137.16 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 158.75 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4 resistor network, star topology, bussed resistors, split"
-			(at 158.75 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c2128f6d-8d07-4122-919d-df6f382b0a52")
-		)
-		(pin "4"
-			(uuid "c2e89ec3-19b5-4af7-bffd-3931478c1028")
-		)
-		(pin "3"
-			(uuid "5c796ad4-3054-48ba-8316-a6a5d46de691")
-		)
-		(pin "5"
-			(uuid "67dede7c-1d9a-4d0d-bd3d-fc22fcf3bad9")
-		)
-		(pin "1"
-			(uuid "dfc2b9d7-b379-44c2-aa1c-d332e5efb0af")
-		)
-		(instances
-			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
-					(reference "RN1")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_Coaxial")
 		(at 25.4 107.95 0)
 		(mirror y)
@@ -5542,97 +5493,6 @@
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
 					(reference "#PWR01")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Network04_Split")
-		(at 156.21 137.16 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86e81793-e478-44ac-8335-f69eb0ce7902")
-		(property "Reference" "RN1"
-			(at 158.75 135.8899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_Network04_Split"
-			(at 158.75 138.4299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP5"
-			(at 154.178 137.16 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 156.21 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4 resistor network, star topology, bussed resistors, split"
-			(at 156.21 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c2128f6d-8d07-4122-919d-df6f382b0a53")
-		)
-		(pin "4"
-			(uuid "c2e89ec3-19b5-4af7-bffd-3931478c1029")
-		)
-		(pin "3"
-			(uuid "5c796ad4-3054-48ba-8316-a6a5d46de692")
-		)
-		(pin "5"
-			(uuid "67dede7c-1d9a-4d0d-bd3d-fc22fcf3bada")
-		)
-		(pin "1"
-			(uuid "dfc2b9d7-b379-44c2-aa1c-d332e5efb0b0")
-		)
-		(instances
-			(project "universalOpAmpV0"
-				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
-					(reference "RN1")
-					(unit 2)
 				)
 			)
 		)
@@ -5877,19 +5737,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Network04_Split")
-		(at 161.29 137.16 0)
-		(unit 4)
+		(lib_id "Switch:SW_DIP_x04")
+		(at 170.18 133.35 0)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b187762b-73d1-42fd-af62-13138374ce88")
-		(property "Reference" "RN1"
-			(at 163.83 135.8899 0)
+		(uuid "b357090a-7f8b-44bb-adc7-c13f53d09962")
+		(property "Reference" "SW2"
+			(at 166.624 140.716 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5899,8 +5758,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Network04_Split"
-			(at 163.83 138.4299 0)
+		(property "Value" "SW_DIP_x04"
+			(at 166.624 143.256 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5910,8 +5769,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP5"
-			(at 159.258 137.16 90)
+		(property "Footprint" "uniOpAmpLib:218-4LPSTR"
+			(at 170.18 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5921,8 +5780,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 161.29 137.16 0)
+		(property "Datasheet" ""
+			(at 170.18 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5932,8 +5791,8 @@
 				)
 			)
 		)
-		(property "Description" "4 resistor network, star topology, bussed resistors, split"
-			(at 161.29 137.16 0)
+		(property "Description" "4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(at 170.18 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5943,26 +5802,35 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "c2128f6d-8d07-4122-919d-df6f382b0a54")
+		(pin "7"
+			(uuid "04c5e376-9cd5-4895-b128-86148a029a03")
 		)
 		(pin "4"
-			(uuid "c2e89ec3-19b5-4af7-bffd-3931478c102a")
+			(uuid "393d898e-aa97-4e73-bf66-594090aa5106")
+		)
+		(pin "2"
+			(uuid "c85874f0-400e-41bd-bfdb-4fbcee62a405")
 		)
 		(pin "3"
-			(uuid "5c796ad4-3054-48ba-8316-a6a5d46de693")
+			(uuid "eacef0e1-e034-4e2a-ab3f-d62cd2bc5fe6")
+		)
+		(pin "6"
+			(uuid "62578a83-0f64-4e69-a651-2867f9def99a")
 		)
 		(pin "5"
-			(uuid "67dede7c-1d9a-4d0d-bd3d-fc22fcf3badb")
+			(uuid "468a7059-e0e5-4b82-92bb-315f562c01d0")
 		)
 		(pin "1"
-			(uuid "dfc2b9d7-b379-44c2-aa1c-d332e5efb0b1")
+			(uuid "7756e0dc-4c21-4e1b-94e2-f0b7c2c1b193")
+		)
+		(pin "8"
+			(uuid "e0c63f06-461c-4143-a6c9-e1b1e2549176")
 		)
 		(instances
 			(project "universalOpAmpV0"
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
-					(reference "RN1")
-					(unit 4)
+					(reference "SW2")
+					(unit 1)
 				)
 			)
 		)
@@ -6127,9 +5995,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Coded_SH-7080")
-		(at 158.75 152.4 270)
-		(mirror x)
+		(lib_id "uniOpAmpLib:ResistorArray")
+		(at 186.69 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6137,10 +6004,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dcaa1d06-a0c7-4428-aafa-1b33b36d8ebd")
-		(property "Reference" "SW2"
-			(at 167.64 151.1299 90)
+		(uuid "efe46b9c-6609-4792-a31d-de2f6933b809")
+		(property "Reference" "R36"
+			(at 183.134 140.716 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6150,8 +6016,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Coded_SH-7080"
-			(at 167.64 153.6699 90)
+		(property "Value" "ResistorArray"
+			(at 183.134 143.256 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6161,20 +6027,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_SH-7040B"
-			(at 147.32 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf"
-			(at 158.75 152.4 0)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+			(at 186.69 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6184,8 +6038,19 @@
 				)
 			)
 		)
-		(property "Description" "Rotary switch, 4-bit encoding, 16 positions, Gray code"
-			(at 158.75 152.4 0)
+		(property "Datasheet" ""
+			(at 186.69 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(at 186.69 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6196,24 +6061,33 @@
 			)
 		)
 		(pin "2"
-			(uuid "362684b8-88e6-4cff-afe4-ce3bc43aa6ea")
+			(uuid "1c84f8be-3a48-4024-97b0-3b9ae9b15432")
 		)
-		(pin "C"
-			(uuid "678a9a51-03f2-4296-81aa-e19edd859a69")
+		(pin "3"
+			(uuid "b4b4d36f-8914-4082-b4cd-5ef3268e834d")
+		)
+		(pin "5"
+			(uuid "4cd6fedb-533b-45c7-b5da-ef96a72c08aa")
+		)
+		(pin "6"
+			(uuid "36dc952c-4239-49ca-b7b6-a4d7d603804c")
 		)
 		(pin "8"
-			(uuid "0a628e3e-c9f8-4bbc-8c2c-ab07d0e6a401")
+			(uuid "d0fac915-fb43-426e-8194-9a9b752eb7b2")
 		)
 		(pin "1"
-			(uuid "a8705266-d059-4416-85eb-d80b41641350")
+			(uuid "c85f7740-636d-4524-b725-5ffcd58fbba7")
 		)
 		(pin "4"
-			(uuid "4a31b5a3-db2b-47a8-8e85-5e4a3ca232d9")
+			(uuid "e7e68ed5-5f38-405c-ac8c-7939e2fcc90f")
+		)
+		(pin "7"
+			(uuid "d25b5241-b505-4c3e-a750-ac394ed7dcde")
 		)
 		(instances
 			(project "universalOpAmpV0"
 				(path "/0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
-					(reference "SW2")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -8038,8 +7912,8 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "e2d97372-2da6-423d-8de6-d81aae368fcc")
-		(property "Sheetname" "OutputStage3"
+		(uuid "f0f4e248-8768-48f8-8742-475887fb904f")
+		(property "Sheetname" "OutputStageWithCurrent"
 			(at 227.33 103.4284 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8050,7 +7924,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "OutputStage.kicad_sch"
+		(property "Sheetfile" "OutputStageWithCurrent.kicad_sch"
 			(at 227.33 119.9646 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8063,7 +7937,7 @@
 		)
 		(pin "A1" input
 			(at 227.33 105.41 180)
-			(uuid "2cc2b068-f503-47e5-a2cd-414ab5557aeb")
+			(uuid "7f9872b7-3931-43db-8230-fb033c39d299")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8073,7 +7947,7 @@
 		)
 		(pin "A2" input
 			(at 227.33 107.95 180)
-			(uuid "a5d41562-8a59-4518-b639-13ed6dc39a86")
+			(uuid "7a590f88-3b99-4362-9caf-43bb1e51dca5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8083,7 +7957,7 @@
 		)
 		(pin "A3" input
 			(at 227.33 110.49 180)
-			(uuid "dcae4b4e-1bee-46b6-9cd4-c9eb8a70a56b")
+			(uuid "1555a15e-990e-413a-ad57-5203b5360e57")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8093,7 +7967,7 @@
 		)
 		(pin "A4" input
 			(at 227.33 113.03 180)
-			(uuid "d8395c65-a90f-49c0-8341-869d4177ce09")
+			(uuid "54d687af-8c0f-4241-a617-c3e587bd084f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8103,7 +7977,7 @@
 		)
 		(pin "A5" input
 			(at 227.33 115.57 180)
-			(uuid "9f7caf1c-6f42-46b1-a7ad-52c3b94ff00b")
+			(uuid "c2667e03-9d34-4b68-970a-a8584df9cd2f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8113,7 +7987,7 @@
 		)
 		(pin "A6" input
 			(at 227.33 118.11 180)
-			(uuid "f3d50706-8aeb-4e01-8e8c-9716f432b368")
+			(uuid "fa8e93ca-192c-4347-909f-5fce48b139ff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8123,7 +7997,7 @@
 		)
 		(pin "O" output
 			(at 254 107.95 0)
-			(uuid "1ef0411b-7e5e-4b90-836b-7b5bbfa658b2")
+			(uuid "f294cea9-bc35-4399-8e13-9f811ec49982")
 			(effects
 				(font
 					(size 1.27 1.27)

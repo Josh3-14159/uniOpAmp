@@ -2875,7 +2875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 59.3852 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -2956,7 +2956,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "uniOpAmpLib:PVG5H"
 			(at 50.8 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3516,7 +3516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 49.2252 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -4526,7 +4526,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 49.2252 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5187,7 +5187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 129.8448 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -5269,7 +5269,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 59.3852 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5383,22 +5383,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "8d3c279b-ffc7-4255-b3e4-a0923dcae48e")
+			(uuid "8d3c279b-ffc7-4255-b3e4-a0923dcae48f")
 		)
 		(pin "1"
-			(uuid "a482eddb-7890-4ea6-a3a5-605cbe4fd1ca")
+			(uuid "a482eddb-7890-4ea6-a3a5-605cbe4fd1cb")
 		)
 		(pin "4"
-			(uuid "8f0cf4d9-25ba-429f-b9cb-75ac275dc386")
+			(uuid "8f0cf4d9-25ba-429f-b9cb-75ac275dc387")
 		)
 		(pin "5"
-			(uuid "7459f443-0951-4118-9cfb-bfb96f03e4cb")
+			(uuid "7459f443-0951-4118-9cfb-bfb96f03e4cc")
 		)
 		(pin "6"
-			(uuid "64a29db7-e83f-423f-8e4c-b53000c85f36")
+			(uuid "64a29db7-e83f-423f-8e4c-b53000c85f37")
 		)
 		(pin "3"
-			(uuid "49a5e89a-e0d3-47cb-b494-ad0844afb344")
+			(uuid "49a5e89a-e0d3-47cb-b494-ad0844afb345")
 		)
 		(instances
 			(project "universalOpAmpV0"
@@ -5444,7 +5444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 140.0048 175.26 0)
 			(hide yes)
 			(show_name no)

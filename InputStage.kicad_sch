@@ -4997,22 +4997,22 @@
 			)
 		)
 		(pin "4"
-			(uuid "03801fcb-4376-4759-ad95-8b7f267259d8")
+			(uuid "03801fcb-4376-4759-ad95-8b7f267259d9")
 		)
 		(pin "5"
-			(uuid "048372ef-c091-47c7-a9c4-b65509012c4f")
+			(uuid "048372ef-c091-47c7-a9c4-b65509012c50")
 		)
 		(pin "6"
-			(uuid "b6c79b7b-a454-4f17-80cd-697c147faed2")
+			(uuid "b6c79b7b-a454-4f17-80cd-697c147faed3")
 		)
 		(pin "2"
-			(uuid "a81d1605-407b-4af2-8497-8e0d24d9d518")
+			(uuid "a81d1605-407b-4af2-8497-8e0d24d9d519")
 		)
 		(pin "1"
-			(uuid "a2ee61c4-c743-4777-9bb5-987f48fe4c36")
+			(uuid "a2ee61c4-c743-4777-9bb5-987f48fe4c37")
 		)
 		(pin "3"
-			(uuid "c1e3e868-2c13-4c9b-b20f-98628c00b243")
+			(uuid "c1e3e868-2c13-4c9b-b20f-98628c00b244")
 		)
 		(instances
 			(project "universalOpAmpV0"

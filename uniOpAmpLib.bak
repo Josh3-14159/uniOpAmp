@@ -2023,9 +2023,9 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "SW_DPDT"
+	(symbol "ResistorArray"
 		(pin_names
-			(offset 1)
+			(offset 0)
 			(hide yes)
 		)
 		(exclude_from_sim no)
@@ -2033,8 +2033,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "SW"
-			(at 0 5.08 0)
+		(property "Reference" "R"
+			(at 0 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2043,8 +2043,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_DPDT"
-			(at 0 -5.08 0)
+		(property "Value" "ResistorArray"
+			(at 19.05 -13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2053,8 +2053,8 @@
 				)
 			)
 		)
-		(property "Footprint" "uniOpAmpLib:CAS-DxxB"
-			(at 0 -10.16 0)
+		(property "Footprint" ""
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -2065,17 +2065,6 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 -7.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2086,7 +2075,18 @@
 				)
 			)
 		)
-		(property "ki_keywords" "changeover single-pole double-throw spdt ON-ON"
+		(property "Description" "4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(at 0 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "dip switch"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2097,69 +2097,79 @@
 				)
 			)
 		)
-		(symbol "SW_DPDT_0_1"
-			(circle
-				(center -2.032 0)
-				(radius 0.4572)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.651 0.254) (xy 1.651 2.286)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 2.032 2.54)
-				(radius 0.4572)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 2.032 -2.54)
-				(radius 0.4572)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
+		(property "ki_fp_filters" "SW?DIP?x4*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(symbol "SW_DPDT_1_1"
+		(symbol "ResistorArray_0_1"
 			(rectangle
-				(start -3.175 3.81)
-				(end 3.175 -3.81)
+				(start -3.81 6.35)
+				(end 3.81 -6.35)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
 					(type background)
 				)
 			)
+			(rectangle
+				(start -2.54 4.445)
+				(end 2.54 3.175)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -2.54 1.905)
+				(end 2.54 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -2.54 -0.635)
+				(end 2.54 -1.905)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -2.54 -3.175)
+				(end 2.54 -4.445)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "ResistorArray_1_1"
 			(pin passive line
-				(at 5.08 2.54 180)
-				(length 2.54)
-				(name "A"
+				(at -7.62 3.81 0)
+				(length 5.08)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2175,9 +2185,9 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 0 0)
-				(length 2.54)
-				(name "B"
+				(at -7.62 1.27 0)
+				(length 5.08)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2193,9 +2203,9 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -2.54 180)
-				(length 2.54)
-				(name "C"
+				(at -7.62 -1.27 0)
+				(length 5.08)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2210,23 +2220,10 @@
 					)
 				)
 			)
-		)
-		(symbol "SW_DPDT_2_1"
-			(rectangle
-				(start -3.175 3.81)
-				(end 3.175 -3.81)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(pin passive line
-				(at 5.08 2.54 180)
-				(length 2.54)
-				(name "A"
+				(at -7.62 -3.81 0)
+				(length 5.08)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2242,9 +2239,9 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 0 0)
-				(length 2.54)
-				(name "B"
+				(at 7.62 -3.81 180)
+				(length 5.08)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2260,9 +2257,9 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -2.54 180)
-				(length 2.54)
-				(name "C"
+				(at 7.62 -1.27 180)
+				(length 5.08)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2270,6 +2267,42 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 1.27 180)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 3.81 180)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
