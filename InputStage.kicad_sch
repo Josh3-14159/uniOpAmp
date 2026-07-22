@@ -2488,6 +2488,16 @@
 		)
 		(uuid "8fdceeb4-281c-4e1c-95bb-f0ea5d15f066")
 	)
+	(text "Two independant SPDT switches"
+		(exclude_from_sim no)
+		(at 119.888 49.276 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9dc97a9b-9479-4b30-9552-b9eaf86ecb55")
+	)
 	(text "switchable gain nice, maybe leave it at that as the stages themselves can do high pass (ac couple)"
 		(exclude_from_sim no)
 		(at 101.346 35.052 0)
@@ -4539,7 +4549,7 @@
 		(dnp no)
 		(uuid "4ffede91-a8ea-45e5-a618-8359e7c069bc")
 		(property "Reference" "R27"
-			(at 99.06 50.8 90)
+			(at 99.06 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4549,7 +4559,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 99.06 48.26 90)
+			(at 99.06 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

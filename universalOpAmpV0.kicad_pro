@@ -55,11 +55,11 @@
           "corner_radius": 0.0,
           "corner_smoothing": 0,
           "fill_mode": 0,
-          "hatch_gap": 0.35,
-          "hatch_orientation": 45.0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
-          "hatch_thickness": 0.4,
+          "hatch_thickness": 1.0,
           "min_clearance": 0.35,
           "min_island_area": 10.0,
           "min_thickness": 0.3,
@@ -670,7 +670,7 @@
         "uuid": "0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
       }
     ],
-    "used_designators": "SW50-52",
+    "used_designators": "U18-22,C98-133,R30-35,#PWR81-99,SW9-10,SW12-13,SW50-52,SW56-57",
     "variants": []
   },
   "sheets": [
@@ -729,6 +729,14 @@
     [
       "a2242a1b-24c1-41af-bbc9-90925611ea53",
       "InputStage3"
+    ],
+    [
+      "4f4beb9a-17ea-4130-9fdd-737ea77d05b9",
+      "OutputStage2"
+    ],
+    [
+      "e2d97372-2da6-423d-8de6-d81aae368fcc",
+      "OutputStage3"
     ]
   ],
   "text_variables": {},
