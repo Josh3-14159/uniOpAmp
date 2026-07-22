@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fdf00015-f6bb-4993-96f8-3f83115b8920")
+		(uuid "e53749fe-d3eb-4deb-b7fb-80f9d47fe810")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "efa05054-6a28-4687-b859-9027a7b18603")
+		(uuid "4f9f719a-6602-458b-a0d1-8afeb52e5b5f")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(at 0 3.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "98e96934-af8e-4b33-af5f-c402c6f3fdb4")
+		(uuid "4fc5e41d-04f4-41b9-a5ea-4fa0ce1ce801")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "f5bd1b08-c869-4b50-9277-dffc2786cea3")
+		(uuid "c9789094-0cb4-4ae3-a877-a02b4e74b6f7")
 		(effects
 			(font
 				(size 1 1)
@@ -63,7 +63,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "3b25b189-0106-464f-910e-eea6c1431582")
+		(uuid "59471a01-3659-45b4-bc52-a2f222b26011")
 	)
 	(fp_line
 		(start -5 17.5)
@@ -73,7 +73,7 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "243a040b-67ca-49c2-b136-e10eaeeafd6b")
+		(uuid "79b1f553-aba1-4664-88ad-4a86c22e5add")
 	)
 	(fp_line
 		(start -1 -8.5)
@@ -83,7 +83,7 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "17da78c9-df37-45e8-874b-b34b15287168")
+		(uuid "0b0c6b2e-56b7-4e0a-9aa1-13151388f1e3")
 	)
 	(fp_line
 		(start -1 -7)
@@ -93,7 +93,7 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "91867536-70ab-4251-8bad-f66c8813151f")
+		(uuid "fb33a313-5411-401a-b5f6-bc3ea392576f")
 	)
 	(fp_line
 		(start -0.5 -9)
@@ -103,7 +103,7 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "759e9fd6-4994-46d1-8f90-0c873b8b9eac")
+		(uuid "e74b78b4-fbf1-4e46-9999-e211a4e68cbe")
 	)
 	(fp_line
 		(start -0.5 -9)
@@ -113,7 +113,7 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "b9e7cf60-007a-49c6-9ec0-b77852e56c5e")
+		(uuid "ee80c3b2-c81c-466f-90e0-bb94acbe2f87")
 	)
 	(fp_line
 		(start 1 -8.5)
@@ -123,7 +123,7 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "62524f29-3678-4822-b8bd-7ee82595d6f6")
+		(uuid "c3ec4e93-f0a5-456e-936f-0e7306150fa9")
 	)
 	(fp_line
 		(start 1 -8.5)
@@ -133,7 +133,7 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "6af3d47e-f6ba-43bc-ab55-dfc4485e232d")
+		(uuid "59e54939-c196-418b-adaa-9268c2495088")
 	)
 	(fp_line
 		(start 1 -7)
@@ -143,7 +143,7 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "1ffee512-8ac4-462a-a7aa-a25bad6d8ce6")
+		(uuid "59c8fbe1-cddb-4137-90c6-18acd24c863f")
 	)
 	(fp_line
 		(start 5 -7)
@@ -153,7 +153,7 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "9adf6663-9ccd-48c0-92a1-3c46040ef513")
+		(uuid "fdbd8752-8ad1-42d2-a980-4cf99a4576b3")
 	)
 	(fp_line
 		(start 5 17.5)
@@ -163,13 +163,13 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "c7fa17c8-499c-4ac5-a0f2-aa103564552d")
+		(uuid "132703d9-60eb-41e8-acb1-68ee38ab98fa")
 	)
 	(fp_text user "Board Edge"
 		(at -4.2 6.2 0)
 		(unlocked yes)
 		(layer "Cmts.User")
-		(uuid "313614d5-f8f0-434e-9198-5b2c6b128cae")
+		(uuid "eb8cb593-dc96-4d05-af7a-fe7810914174")
 		(effects
 			(font
 				(size 1 1)
@@ -182,7 +182,7 @@
 		(at 0 -4.2 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "13fe46ae-7a16-4a00-9e50-4e31476ad540")
+		(uuid "68a48050-3ff8-4dfc-b0a8-8eb78be299fa")
 		(effects
 			(font
 				(size 1 1)
@@ -199,7 +199,7 @@
 		(roundrect_rratio 0)
 		(chamfer_ratio 0.2)
 		(chamfer top_left top_right bottom_left bottom_right)
-		(uuid "d6e40a5e-2050-47a0-bc6f-6cb575789ce9")
+		(uuid "e203b07e-8298-4cb8-a124-2c1d297117ee")
 	)
 	(pad "2" thru_hole roundrect
 		(at -3.8 0)
@@ -208,7 +208,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "f7fd66ad-f525-4691-9b43-791a3d6b0e67")
+		(uuid "5ce99c6c-7ec6-497f-a97b-46b9c802fc02")
 	)
 	(pad "2" thru_hole roundrect
 		(at 3.8 0)
@@ -217,7 +217,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "b8812de2-134c-4680-943d-e434d77ffb0b")
+		(uuid "932489c9-715b-415c-ab3b-0a0203501589")
 	)
 	(embedded_fonts no)
 )

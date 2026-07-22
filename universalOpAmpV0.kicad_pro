@@ -502,8 +502,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "uniOpAmpLib"
+    ],
+    "pinned_symbol_libs": [
+      "uniOpAmpLib"
+    ]
   },
   "meta": {
     "filename": "universalOpAmpV0.kicad_pro",
@@ -666,7 +670,7 @@
         "uuid": "0c9d5097-e341-4aa8-a29f-4bc5e653f52f"
       }
     ],
-    "used_designators": "R10-11,U8-10,U13-14,SW15-43,SW45-49,RV4-13,D2-6,C32-75,C77-79,#PWR36-56,#PWR58-68,J2-6",
+    "used_designators": "SW50-52",
     "variants": []
   },
   "sheets": [
